@@ -1,2 +1,3 @@
 # retrolighting-app
-Embedded lighting application to be used in various scenarios
+
+Embedded lighting application to be used in various scenarios.
