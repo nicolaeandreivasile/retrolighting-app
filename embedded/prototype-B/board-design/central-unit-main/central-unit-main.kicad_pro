@@ -580,16 +580,16 @@
       "Root"
     ],
     [
-      "f9f1c8b3-c5bb-4be9-b6ff-a3095e24a62f",
-      "USB-UART"
+      "0874b7fa-6631-41bc-8ca3-fd3382c89502",
+      "USB"
     ],
     [
-      "082f8efb-7868-402e-8617-a9ef9430c814",
-      "BATTERY"
+      "0d9b0fcc-d01e-4009-b64e-b7ee43f093f4",
+      "Battery"
     ],
     [
-      "1e1b27f1-0184-489c-b4f9-959ef4036d51",
-      "POWER"
+      "2f8cd56c-bf2b-4671-8b02-819c15d92961",
+      "Power"
     ]
   ],
   "text_variables": {}
