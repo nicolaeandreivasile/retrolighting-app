@@ -580,16 +580,20 @@
       "Root"
     ],
     [
+      "cc98b7f7-24e9-4fde-9df7-fd8cf7d5841a",
+      "MCU"
+    ],
+    [
+      "2f8cd56c-bf2b-4671-8b02-819c15d92961",
+      "Power"
+    ],
+    [
       "0874b7fa-6631-41bc-8ca3-fd3382c89502",
       "USB"
     ],
     [
       "0d9b0fcc-d01e-4009-b64e-b7ee43f093f4",
       "Battery"
-    ],
-    [
-      "2f8cd56c-bf2b-4671-8b02-819c15d92961",
-      "Power"
     ]
   ],
   "text_variables": {}

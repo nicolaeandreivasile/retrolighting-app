@@ -1,4 +1,4 @@
-26115631684886539
+26119199841333658
 2171790001
 MOLEX_2171790001
 
@@ -57007,6 +57007,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESDA7P60-1U1M
+TVS_ESDA7P60-1U1M
+
+
+0
+2
+2
 Espressif
 ESP32-C3-DevKitC-02
 
@@ -91153,6 +91160,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+STM1061N27WX6F
+SOT103P237X112-3N
+SOT-23_1
+Integrated Circuit
+0
+3
+3
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
