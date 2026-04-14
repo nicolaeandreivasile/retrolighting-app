@@ -594,6 +594,10 @@
     [
       "0d9b0fcc-d01e-4009-b64e-b7ee43f093f4",
       "Battery"
+    ],
+    [
+      "86f0e54b-9e1c-4445-9a24-509c49d1d218",
+      "Sensor"
     ]
   ],
   "text_variables": {}
