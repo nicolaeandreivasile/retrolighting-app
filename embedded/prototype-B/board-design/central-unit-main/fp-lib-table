@@ -4,4 +4,5 @@
   (lib (name "ESDA7P60-1U1M")(type "KiCad")(uri "${KIPRJMOD}/ESDA7P60-1U1M")(options "")(descr ""))
   (lib (name "STM1061N27WX6F")(type "KiCad")(uri "${KIPRJMOD}/STM1061N27WX6F")(options "")(descr ""))
   (lib (name "1043")(type "KiCad")(uri "${KIPRJMOD}/1043")(options "")(descr ""))
+  (lib (name "VEML6030")(type "KiCad")(uri "${KIPRJMOD}/VEML6030")(options "")(descr ""))
 )
