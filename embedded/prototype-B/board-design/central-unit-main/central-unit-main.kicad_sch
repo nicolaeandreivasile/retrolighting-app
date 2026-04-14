@@ -5,7 +5,9 @@
 	(uuid "baa8ab85-8b75-4cee-ab91-40606360b161")
 	(paper "A4")
 	(title_block
-		(date "2026-04-06")
+		(title "Retrolight")
+		(date "2026-04-14")
+		(rev "B")
 	)
 	(lib_symbols)
 	(no_connect
