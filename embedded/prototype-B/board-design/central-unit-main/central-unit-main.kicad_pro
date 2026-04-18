@@ -598,6 +598,10 @@
     [
       "86f0e54b-9e1c-4445-9a24-509c49d1d218",
       "Sensor"
+    ],
+    [
+      "2abe0eec-2be5-4c48-b296-f13a8b7f195a",
+      "Connector"
     ]
   ],
   "text_variables": {}
