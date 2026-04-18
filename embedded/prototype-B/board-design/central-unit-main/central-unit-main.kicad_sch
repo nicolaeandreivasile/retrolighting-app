@@ -10,39 +10,45 @@
 		(rev "B")
 	)
 	(lib_symbols)
-	(no_connect
-		(at 127 53.34)
-		(uuid "093f5cb2-30fa-45f9-87ed-a257bf859a01")
-	)
-	(no_connect
-		(at 165.1 53.34)
-		(uuid "0e643b5d-eb99-42b1-bf7c-3ccf591e9ee8")
-	)
-	(no_connect
-		(at 165.1 58.42)
-		(uuid "a07c0aff-2baa-4670-b997-e453e7d1e4d9")
-	)
-	(no_connect
-		(at 165.1 55.88)
-		(uuid "d1cb04c2-d980-4078-b28c-fb3ab86794fd")
-	)
-	(no_connect
-		(at 165.1 60.96)
-		(uuid "d2f15f22-fbc3-4472-98bd-062fbfc390df")
-	)
-	(no_connect
-		(at 165.1 63.5)
-		(uuid "e533488c-197e-4a5f-bafd-cfd0497789c7")
+	(wire
+		(pts
+			(xy 165.1 63.5) (xy 190.5 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e0fb684-302d-4969-a6c6-5f76e04aa37f")
 	)
 	(wire
 		(pts
-			(xy 88.9 66.04) (xy 127 66.04)
+			(xy 88.9 53.34) (xy 127 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "13fbed9d-c0aa-4374-af43-ce804873560b")
+	)
+	(wire
+		(pts
+			(xy 165.1 60.96) (xy 190.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c467bae-2811-4606-9363-af23f6e0366b")
+	)
+	(wire
+		(pts
+			(xy 165.1 88.9) (xy 190.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df1079b-b973-4edb-bc1d-585d9491b969")
 	)
 	(wire
 		(pts
@@ -56,13 +62,23 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 73.66) (xy 127 73.66)
+			(xy 88.9 60.96) (xy 127 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "494993e4-b50a-4c30-9991-1a18924cc9b8")
+	)
+	(wire
+		(pts
+			(xy 165.1 83.82) (xy 190.5 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef46ad8-d096-47cd-a056-fadcbef73cbd")
 	)
 	(wire
 		(pts
@@ -76,6 +92,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 73.66) (xy 190.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a9cfaf-e290-47fe-b711-d9d6025d749a")
+	)
+	(wire
+		(pts
 			(xy 88.9 96.52) (xy 127 96.52)
 		)
 		(stroke
@@ -86,7 +112,37 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 71.12) (xy 127 71.12)
+			(xy 165.1 66.04) (xy 190.5 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86117ff7-f5ff-43ae-b805-909ef2e9066f")
+	)
+	(wire
+		(pts
+			(xy 165.1 76.2) (xy 190.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9492f710-0017-4819-9611-d221553ce2e6")
+	)
+	(wire
+		(pts
+			(xy 165.1 86.36) (xy 190.5 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9da4463e-ebfd-4932-86bc-12a6d1ac302c")
+	)
+	(wire
+		(pts
+			(xy 88.9 58.42) (xy 127 58.42)
 		)
 		(stroke
 			(width 0)
@@ -96,13 +152,73 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 68.58) (xy 127 68.58)
+			(xy 165.1 53.34) (xy 190.5 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb7bc99c-30a6-4d9a-b145-dfbfeb6a2623")
+	)
+	(wire
+		(pts
+			(xy 165.1 93.98) (xy 190.5 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69d13a0-2e62-4310-b391-610692b00d49")
+	)
+	(wire
+		(pts
+			(xy 165.1 58.42) (xy 190.5 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63132b9-2982-4ebb-b73c-55fa746dd842")
+	)
+	(wire
+		(pts
+			(xy 88.9 55.88) (xy 127 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e0570b14-bdff-4881-8ff1-674a31459e4c")
+	)
+	(wire
+		(pts
+			(xy 165.1 68.58) (xy 190.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecfb56b0-75dc-4dd0-a90c-c18afdfe597b")
+	)
+	(wire
+		(pts
+			(xy 165.1 81.28) (xy 190.5 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7e04e55-102d-4966-9f72-da3d3131e31e")
+	)
+	(wire
+		(pts
+			(xy 165.1 96.52) (xy 190.5 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf88fb3-df1f-4389-9dd6-5448e9994bbd")
 	)
 	(sheet
 		(at 76.2 88.9)
@@ -211,6 +327,184 @@
 		)
 	)
 	(sheet
+		(at 190.5 50.8)
+		(size 25.4 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2abe0eec-2be5-4c48-b296-f13a8b7f195a")
+		(property "Sheetname" "Connector"
+			(at 190.5 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector.kicad_sch"
+			(at 190.5 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{JTRST}" output
+			(at 190.5 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c1ccce92-3b3d-4c28-886c-774c893adf6d")
+		)
+		(pin "JTDI" output
+			(at 190.5 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "72e92c9d-d4c7-4ac6-8b05-558a97ee21f3")
+		)
+		(pin "JTDO{slash}TRACESWO" input
+			(at 190.5 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4fcfeda0-e3cf-4330-a4b3-b9027e6994a3")
+		)
+		(pin "JTMS{slash}SWDIO" output
+			(at 190.5 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3402f4c9-205b-499e-9766-9c7731592b02")
+		)
+		(pin "JTCK{slash}SWCLK" output
+			(at 190.5 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "07281ebf-6f5d-4a36-8e44-087068d723a4")
+		)
+		(pin "NRST" output
+			(at 190.5 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "48dcffd7-6c9e-4aa4-825c-041922db42e6")
+		)
+		(pin "GPIO0" bidirectional
+			(at 190.5 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2ac9540a-fd44-4396-8283-023c0e94ebbc")
+		)
+		(pin "GPIO1" bidirectional
+			(at 190.5 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bdfe88b3-fe0e-46f6-8ac5-2696c7038dcc")
+		)
+		(pin "I2C_SCL" bidirectional
+			(at 190.5 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "32a0c1f7-9553-45b9-bd37-a2f59dbe79a6")
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 190.5 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b8d6e8c2-c703-4bb8-972e-596af7f3537b")
+		)
+		(pin "SPI_SS" input
+			(at 190.5 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "07c7b404-c0cd-42af-a875-8bbd6fe9b8b7")
+		)
+		(pin "SPI_MISO" output
+			(at 190.5 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f97bb755-e277-4327-869b-d57fec62444b")
+		)
+		(pin "SPI_MOSI" input
+			(at 190.5 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a45c3c6a-cffe-4c88-b4b3-ca1e88b4125a")
+		)
+		(pin "SPI_SCK" input
+			(at 190.5 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9792eb9b-8b7d-48cc-9bc2-0e8d4c16d710")
+		)
+		(instances
+			(project "central-unit-main"
+				(path "/baa8ab85-8b75-4cee-ab91-40606360b161"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 127 114.3)
 		(size 12.7 12.7)
 		(fields_autoplaced yes)
@@ -249,7 +543,7 @@
 		)
 	)
 	(sheet
-		(at 76.2 63.5)
+		(at 76.2 50.8)
 		(size 12.7 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -261,7 +555,7 @@
 		)
 		(uuid "86f0e54b-9e1c-4445-9a24-509c49d1d218")
 		(property "Sheetname" "Sensor"
-			(at 76.2 62.7884 0)
+			(at 76.2 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -270,7 +564,7 @@
 			)
 		)
 		(property "Sheetfile" "sensor.kicad_sch"
-			(at 76.2 76.7846 0)
+			(at 76.2 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -278,28 +572,8 @@
 				(justify left top)
 			)
 		)
-		(pin "SDA" bidirectional
-			(at 88.9 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "07436234-ac2c-4852-9659-d896dd7a29dd")
-		)
-		(pin "SCL" bidirectional
-			(at 88.9 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b7327647-8578-4aa4-b901-bc8193a4b623")
-		)
 		(pin "ALS_INT" output
-			(at 88.9 71.12 0)
+			(at 88.9 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -309,7 +583,7 @@
 			(uuid "851fb4a1-4b49-4e4a-b8d8-041e869d52bc")
 		)
 		(pin "ACC_INT" output
-			(at 88.9 73.66 0)
+			(at 88.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -317,6 +591,26 @@
 				(justify right)
 			)
 			(uuid "8e09a670-b3b5-4643-9897-914600ee2bb2")
+		)
+		(pin "I2C_SCL" bidirectional
+			(at 88.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0b23ed5b-2417-430c-88c8-937b6e500ca1")
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 88.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "70a5dcd6-b6ac-445e-9ec3-54061d49c46d")
 		)
 		(instances
 			(project "central-unit-main"
@@ -387,17 +681,17 @@
 			(uuid "d7bb73d4-5adf-4f45-847c-7bbd595897a0")
 		)
 		(pin "NRST" input
-			(at 127 53.34 180)
+			(at 165.1 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "be3492b2-1edb-455b-88e9-ced938e2fb23")
 		)
 		(pin "JTMS{slash}SWDIO" input
-			(at 165.1 53.34 0)
+			(at 165.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -407,7 +701,7 @@
 			(uuid "4172c1f0-ce83-4732-a465-1d4a3962ebfa")
 		)
 		(pin "JTCK{slash}SWCLK" input
-			(at 165.1 55.88 0)
+			(at 165.1 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -417,7 +711,7 @@
 			(uuid "a1151322-c631-4744-834a-be644a9662b0")
 		)
 		(pin "JTDI" input
-			(at 165.1 58.42 0)
+			(at 165.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -427,7 +721,7 @@
 			(uuid "9170029c-98e0-4ba5-9186-e515b607d409")
 		)
 		(pin "JTDO{slash}TRACESWO" output
-			(at 165.1 60.96 0)
+			(at 165.1 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -437,7 +731,7 @@
 			(uuid "52795ada-d620-4b69-afd4-3abd791d4c63")
 		)
 		(pin "~{JTRST}" input
-			(at 165.1 63.5 0)
+			(at 165.1 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -447,7 +741,7 @@
 			(uuid "ed35cdc9-7f40-4502-9326-bd419a9edf2d")
 		)
 		(pin "I2C1_SDA" bidirectional
-			(at 127 66.04 180)
+			(at 127 53.34 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -457,7 +751,7 @@
 			(uuid "bc3c1dee-b986-40f5-9a14-ef6ec2193c71")
 		)
 		(pin "I2C1_SCL" bidirectional
-			(at 127 68.58 180)
+			(at 127 55.88 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -467,7 +761,7 @@
 			(uuid "0df8c277-75c8-4f32-9e69-b20afc322e18")
 		)
 		(pin "ALS_INT" input
-			(at 127 71.12 180)
+			(at 127 58.42 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -477,7 +771,7 @@
 			(uuid "70f4f393-a32e-434d-a323-dcbe12786890")
 		)
 		(pin "ACC_INT" input
-			(at 127 73.66 180)
+			(at 127 60.96 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -485,6 +779,86 @@
 				(justify left)
 			)
 			(uuid "55f59b36-20a3-4c22-94e6-d1becf43681f")
+		)
+		(pin "I2C2_SCL" bidirectional
+			(at 165.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8f3a5cc2-8162-4a72-b2c2-0dfbc491ca8a")
+		)
+		(pin "I2C2_SDA" bidirectional
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "002e0998-d59b-49ad-ab14-0efb594283a2")
+		)
+		(pin "SPI2_MISO" input
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bffefd29-1f48-40fa-935a-8864422428b5")
+		)
+		(pin "SPI2_NSS" output
+			(at 165.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "275958c8-4fe2-46ad-af14-ff90e2e37d05")
+		)
+		(pin "SPI2_MOSI" output
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "703a871c-fbcf-4465-92aa-0723a0a5c41e")
+		)
+		(pin "SPI2_SCK" output
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cd4844e1-a260-4933-ae3c-bb3b7270d6c6")
+		)
+		(pin "GPIO0" bidirectional
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9e1dbeb9-99c5-49c2-97e1-d98c4f0f129a")
+		)
+		(pin "GPIO1" bidirectional
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3cdcbf6f-bf54-4f80-a997-3a279db1d4be")
 		)
 		(instances
 			(project "central-unit-main"
