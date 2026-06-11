@@ -6,8 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Retrolight")
-		(date "2026-04-14")
+		(date "2026-06-11")
 		(rev "B")
+		(comment 1 "Author: Nicolae-Andrei Prodan")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"

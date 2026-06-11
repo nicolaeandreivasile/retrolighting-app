@@ -6,5 +6,4 @@
 	(lib (name "1043") (type "KiCad") (uri "${KIPRJMOD}/1043") (options "") (descr ""))
 	(lib (name "VEML6030") (type "KiCad") (uri "${KIPRJMOD}/VEML6030") (options "") (descr ""))
 	(lib (name "1825910-6") (type "KiCad") (uri "${KIPRJMOD}/1825910-6") (options "") (descr ""))
-	(lib (name "USBLC6-2SC6") (type "KiCad") (uri "${KIPRJMOD}/USBLC6-2SC6") (options "") (descr ""))
 )

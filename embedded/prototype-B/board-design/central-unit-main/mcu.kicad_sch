@@ -6,8 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Retrolight")
-		(date "2026-04-14")
+		(date "2026-06-11")
 		(rev "B")
+		(comment 1 "Author: Nicolae-Andrei Prodan")
 	)
 	(lib_symbols
 		(symbol "1825910-6:1825910-6"
@@ -3073,6 +3074,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 13.97 121.92)
@@ -3377,12 +3493,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c130c780-5ef7-470a-9afb-e01fd9707620")
-	)
-	(junction
-		(at 220.98 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c94037e6-10ee-4214-92f1-95750a116954")
 	)
 	(junction
 		(at 43.18 88.9)
@@ -3879,16 +3989,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 38.1) (xy 220.98 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38e5e271-fb05-4304-947a-78878fb70823")
-	)
-	(wire
-		(pts
 			(xy 62.23 104.14) (xy 62.23 100.33)
 		)
 		(stroke
@@ -4047,16 +4147,6 @@
 			(type default)
 		)
 		(uuid "4f108750-add0-46d6-82c7-e3c4dbc4e341")
-	)
-	(wire
-		(pts
-			(xy 220.98 38.1) (xy 218.44 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "507a439a-25ff-40e2-8590-c7d0d7190d04")
 	)
 	(wire
 		(pts
@@ -4301,7 +4391,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 35.56) (xy 205.74 38.1)
+			(xy 205.74 31.75) (xy 205.74 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4388,6 +4478,16 @@
 			(type default)
 		)
 		(uuid "8aa6f11c-e296-4ad1-9f9d-585618a49365")
+	)
+	(wire
+		(pts
+			(xy 220.98 31.75) (xy 220.98 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ad67b74-44a4-4600-b351-db93ecd87ba6")
 	)
 	(wire
 		(pts
@@ -5012,7 +5112,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 38.1) (xy 220.98 38.1)
+			(xy 218.44 38.1) (xy 223.52 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5080,6 +5180,16 @@
 		)
 		(uuid "3fce4c93-bbe3-4e86-92e6-7f88dce6e9be")
 	)
+	(label "VDDA"
+		(at 43.18 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "401bdc66-d7d3-4a78-89f8-a6cf956bd1a3")
+	)
 	(label "OSC_8M_OUT"
 		(at 158.75 55.88 0)
 		(effects
@@ -5089,6 +5199,16 @@
 			(justify left bottom)
 		)
 		(uuid "672fe1c5-b9aa-4b72-a693-0be758489724")
+	)
+	(label "VDDA"
+		(at 220.98 31.75 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "751b426a-f6cf-4d8b-92a3-050c61a7401a")
 	)
 	(label "BOOT0"
 		(at 158.75 58.42 0)
@@ -8001,7 +8121,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 205.74 35.56 0)
+		(at 205.74 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8012,7 +8132,7 @@
 		(fields_autoplaced yes)
 		(uuid "75258b6f-ba9f-4b5d-8664-8826933f5589")
 		(property "Reference" "#PWR1"
-			(at 205.74 39.37 0)
+			(at 205.74 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8023,7 +8143,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 205.74 30.48 0)
+			(at 205.74 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8033,7 +8153,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 35.56 0)
+			(at 205.74 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8044,7 +8164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 35.56 0)
+			(at 205.74 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8055,7 +8175,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 205.74 35.56 0)
+			(at 205.74 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8419,6 +8539,85 @@
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/cc98b7f7-24e9-4fde-9df7-fd8cf7d5841a"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 220.98 31.75 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e2c54cb-b653-4506-955f-801852070ab8")
+		(property "Reference" "#FLG07"
+			(at 220.98 29.845 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 220.98 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 220.98 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "115e2e1d-45c9-40b9-91c2-35e941b079dd")
+		)
+		(instances
+			(project "central-unit-main"
+				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/cc98b7f7-24e9-4fde-9df7-fd8cf7d5841a"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
