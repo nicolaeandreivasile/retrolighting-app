@@ -597,7 +597,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber-files/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -893,7 +893,7 @@
         "uuid": "baa8ab85-8b75-4cee-ab91-40606360b161"
       }
     ],
-    "used_designators": "J4",
+    "used_designators": "R31-32,#PWR38,J4",
     "variants": []
   },
   "sheets": [
