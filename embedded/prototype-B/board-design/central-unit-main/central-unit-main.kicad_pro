@@ -610,7 +610,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "central-unit-main.csv",
     "bom_fmt_presets": [],
@@ -775,13 +775,13 @@
           "group_by": false,
           "label": "Price",
           "name": "Price",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Purchase-URL",
           "name": "Purchase-URL",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -893,7 +893,7 @@
         "uuid": "baa8ab85-8b75-4cee-ab91-40606360b161"
       }
     ],
-    "used_designators": "R31-32,#PWR38,J4",
+    "used_designators": "TP1-8,TH1,#FLG1-7,Y1-2,#PWR1-36,BAT1,IC1-2,C1-32,U1-5,D1-3,H1-4,J1-5,FB1-2,L1,R1-32,S1,SW1",
     "variants": []
   },
   "sheets": [
