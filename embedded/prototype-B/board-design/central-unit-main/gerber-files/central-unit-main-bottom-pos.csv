@@ -3,5 +3,4 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "J1","Screw_Terminal_01x02","TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal",157.500000,-79.960000,-90.000000,bottom
 "J3","Conn_02x05_Odd_Even","IDC-Header_2x05_P2.54mm_Vertical",147.080000,-135.752500,90.000000,bottom
 "J4","Conn_ARM_JTAG_SWD_20","IDC-Header_2x10_P2.54mm_Vertical",126.000000,-100.640000,180.000000,bottom
-"J5","Conn_02x05_Odd_Even","IDC-Header_2x05_P2.54mm_Vertical",158.000000,-123.500000,0.000000,bottom
 "S1","1825910-6","18259106",162.000000,-86.500000,180.000000,bottom
