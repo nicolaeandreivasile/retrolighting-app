@@ -2830,6 +2830,28 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 167.64 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 167.64 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1922645f-ec04-4027-ad49-ac317b9e738e")
 		)
@@ -2857,7 +2879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2df8767a-810c-4d76-88f2-055ded322264")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 142.24 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2923,6 +2945,28 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 144.78 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 144.78 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fdf05532-ebd6-421f-82e1-fa0c3b28fa8b")
 		)
@@ -2932,7 +2976,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/0d9b0fcc-d01e-4009-b64e-b7ee43f093f4"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2950,7 +2994,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3863484a-50d6-4aea-920f-cba4d9961c7b")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 152.4 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3016,6 +3060,28 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 149.86 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 149.86 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "43cf7867-a4f0-405d-962c-0c2978222afe")
 		)
@@ -3025,7 +3091,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/0d9b0fcc-d01e-4009-b64e-b7ee43f093f4"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3088,6 +3154,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 106.68 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 106.68 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 106.68 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3168,6 +3256,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 144.78 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 144.78 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VERIFIER" ""
 			(at 144.78 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3338,6 +3448,28 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 204.47 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 204.47 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "37d39047-9516-4208-9368-165fb9a4e26a")
 		)
@@ -3407,6 +3539,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 109.22 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 109.22 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 109.22 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3497,6 +3651,28 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 104.14 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 104.14 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "00994ec7-5965-45c1-b56f-afd3335966cb")
 		)
@@ -3570,6 +3746,28 @@
 			)
 		)
 		(property "Description" "USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"
+			(at 127 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 127 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VERIFIER" ""
 			(at 127 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3696,6 +3894,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 149.86 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 149.86 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VERIFIER" ""
 			(at 149.86 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4009,6 +4229,28 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 204.47 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 204.47 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2a4d1c61-5742-42fa-9aad-a31e7eae804d")
 		)
@@ -4156,6 +4398,28 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 83.82 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 83.82 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "74d8c3d2-ee64-4f8b-948c-381c72d3aa85")
 		)
@@ -4238,6 +4502,28 @@
 				)
 			)
 		)
+		(property "CREATOR" ""
+			(at 179.07 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 179.07 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e5d57927-76cf-45d9-b5ea-80f242081f1f")
 		)
@@ -4310,6 +4596,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 111.76 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CREATOR" ""
+			(at 111.76 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 111.76 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4485,6 +4793,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "CREATOR" ""
+			(at 176.53 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 176.53 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
