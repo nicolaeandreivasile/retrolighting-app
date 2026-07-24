@@ -610,7 +610,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "retrolight-main.csv",
     "bom_fmt_presets": [],
@@ -646,7 +646,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -679,7 +679,7 @@
           "group_by": false,
           "label": "Price",
           "name": "Price",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -781,7 +781,7 @@
         "uuid": "be4ed349-6b8c-4761-97d0-0d6a89f091e9"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1,R1-18,J1,H1-2,D1-8,C1-2,#PWR1-8,#FLG1-2",
     "variants": []
   },
   "sheets": [
