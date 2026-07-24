@@ -4801,7 +4801,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce336099-5875-48d3-a8b2-53cfb1f212e3")
-		(property "Reference" "C23"
+		(property "Reference" "C24"
 			(at 100.33 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4953,7 +4953,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/0874b7fa-6631-41bc-8ca3-fd3382c89502"
-					(reference "C23")
+					(reference "C24")
 					(unit 1)
 				)
 			)
