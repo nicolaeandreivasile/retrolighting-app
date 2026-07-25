@@ -2019,12 +2019,6 @@
 		(uuid "b28b07c4-7921-444b-a2f8-68a19e3faa44")
 	)
 	(junction
-		(at 123.19 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7e524e8-bcbc-4917-bc51-bce41f00673b")
-	)
-	(junction
 		(at 118.11 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2234,7 +2228,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 116.84) (xy 180.34 116.84)
+			(xy 180.34 116.84) (xy 199.39 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2331,16 +2325,6 @@
 			(type default)
 		)
 		(uuid "42c71a48-411d-4d77-b5fa-ffa75f9525c9")
-	)
-	(wire
-		(pts
-			(xy 118.11 88.9) (xy 118.11 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46512225-dd10-42f7-aae0-6d449cea1363")
 	)
 	(wire
 		(pts
@@ -2534,16 +2518,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 107.95) (xy 118.11 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80539972-0e84-49ff-9b6f-6fc644faa40c")
-	)
-	(wire
-		(pts
 			(xy 165.1 88.9) (xy 170.18 88.9)
 		)
 		(stroke
@@ -2661,16 +2635,6 @@
 			(type default)
 		)
 		(uuid "9cb36613-cde7-4e92-8194-977993da8fe3")
-	)
-	(wire
-		(pts
-			(xy 118.11 116.84) (xy 123.19 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dca9cc0-0cb0-480d-b25b-c6956fdcee8b")
 	)
 	(wire
 		(pts
@@ -3513,7 +3477,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62fff7af-8b18-4ea1-9195-ec95a73c889d")
-		(property "Reference" "C21"
+		(property "Reference" "C20"
 			(at 124.46 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3665,7 +3629,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/2f8cd56c-bf2b-4671-8b02-819c15d92961"
-					(reference "C21")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -4192,175 +4156,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 118.11 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "845b1942-bdcc-49ba-b99c-c79e5eaad77b")
-		(property "Reference" "C20"
-			(at 119.38 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF/6.3V/20%/C0603"
-			(at 119.38 101.6 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 119.0752 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 118.11 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" ""
-			(at 118.11 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 118.11 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" ""
-			(at 118.11 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Name" ""
-			(at 118.11 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Params" ""
-			(at 118.11 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 118.11 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CREATOR" ""
-			(at 118.11 104.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 118.11 104.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2bc93206-6fce-42b7-ad67-be7115485552")
-		)
-		(pin "1"
-			(uuid "fd78d7e0-decf-4458-a5e4-ff139e74bdf2")
-		)
-		(instances
-			(project "central-unit-main"
-				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/2f8cd56c-bf2b-4671-8b02-819c15d92961"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 128.27 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -4370,7 +4165,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b4d924f-746c-456d-b609-c79eb1c40be4")
-		(property "Reference" "C22"
+		(property "Reference" "C21"
 			(at 129.54 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4522,7 +4317,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/2f8cd56c-bf2b-4671-8b02-819c15d92961"
-					(reference "C22")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -5292,7 +5087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be5b97f8-541e-4530-956c-01e36d52cd88")
-		(property "Reference" "C23"
+		(property "Reference" "C22"
 			(at 134.62 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5444,7 +5239,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/2f8cd56c-bf2b-4671-8b02-819c15d92961"
-					(reference "C23")
+					(reference "C22")
 					(unit 1)
 				)
 			)

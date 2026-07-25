@@ -2677,7 +2677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1711317c-259d-47bd-af8d-18a0d1cfd73b")
-		(property "Reference" "C26"
+		(property "Reference" "C25"
 			(at 168.91 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2829,7 +2829,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/0d9b0fcc-d01e-4009-b64e-b7ee43f093f4"
-					(reference "C26")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -3973,7 +3973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca66d1e9-34df-4c8c-8514-8e682d5a3f2b")
-		(property "Reference" "C27"
+		(property "Reference" "C26"
 			(at 207.01 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4125,7 +4125,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/0d9b0fcc-d01e-4009-b64e-b7ee43f093f4"
-					(reference "C27")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -4142,7 +4142,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb081adf-36ab-46cb-b5b9-045deae388f5")
-		(property "Reference" "C25"
+		(property "Reference" "C24"
 			(at 85.09 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4294,7 +4294,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/0d9b0fcc-d01e-4009-b64e-b7ee43f093f4"
-					(reference "C25")
+					(reference "C24")
 					(unit 1)
 				)
 			)

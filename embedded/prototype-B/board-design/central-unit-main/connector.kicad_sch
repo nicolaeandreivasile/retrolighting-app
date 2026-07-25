@@ -3716,7 +3716,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c47a172-89ad-4cf2-ad47-574b13b3f5c2")
-		(property "Reference" "C33"
+		(property "Reference" "C32"
 			(at 130.81 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3868,7 +3868,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/2abe0eec-2be5-4c48-b296-f13a8b7f195a"
-					(reference "C33")
+					(reference "C32")
 					(unit 1)
 				)
 			)
