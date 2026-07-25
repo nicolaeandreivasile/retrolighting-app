@@ -556,207 +556,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1357,6 +1156,291 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MP-3014-1100-50-70:MP-3014-1100-50-70"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -3.0988 4.4958 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MP-3014-1100-50-70"
+				(at -3.0988 -3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "MP-3014-1100-50-70:LED_MP-3014-1100-50-70"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTREV" "Rev. 09"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Luminus Devices Inc."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.57 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "MP-3014-1100-50-70_0_0"
+				(polyline
+					(pts
+						(xy -2.54 1.524) (xy -2.54 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.524) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 3.683) (xy -0.5715 3.175) (xy -0.1905 4.191) (xy -1.143 3.683)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 4.0386) (xy -2.1336 2.0066)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.127 3.6195) (xy 0.6985 3.1115) (xy 1.0795 4.191) (xy 0.127 3.6195)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 3.937) (xy -0.889 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -1927,34 +2011,16 @@
 		(uuid "f2d1abbe-0bf2-497e-b80f-1c0cae65c2e3")
 	)
 	(junction
-		(at 119.38 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b6d4046-c0a7-4eaa-959d-161968d0e007")
-	)
-	(junction
 		(at 190.5 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b77ccfd-312d-45e4-80c4-a21693016930")
 	)
 	(junction
-		(at 157.48 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10ddd900-ae1e-43a0-afcd-13de803c273a")
-	)
-	(junction
 		(at 44.45 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1826f653-6526-4839-a0b9-0d156024738a")
-	)
-	(junction
-		(at 142.24 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ae6552e-82d2-4397-a0be-7e0c3453a092")
 	)
 	(junction
 		(at 62.23 143.51)
@@ -1979,6 +2045,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39e099d5-b1ed-48f2-8a87-739b3b57180b")
+	)
+	(junction
+		(at 157.48 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "442c8c06-52cc-40d1-9ec4-dbedaf3776d4")
+	)
+	(junction
+		(at 134.62 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ab9cb6e-148f-46eb-88ad-b8ade1896daf")
 	)
 	(junction
 		(at 49.53 114.3)
@@ -2011,28 +2089,16 @@
 		(uuid "7102afdc-9941-4c24-8f3b-7f379972eb1b")
 	)
 	(junction
-		(at 134.62 66.04)
+		(at 111.76 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "798b2b98-510e-45c3-87a6-81904d56aa76")
-	)
-	(junction
-		(at 127 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "844d87e1-b313-4302-b5f4-fab7e1e0f59a")
+		(uuid "74230700-7702-411b-a7ee-80e41202712d")
 	)
 	(junction
 		(at 52.07 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a4111a1-674f-491f-9f88-bb90aa7a7131")
-	)
-	(junction
-		(at 111.76 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b9225fd-3217-473c-b494-008ffcbd6375")
 	)
 	(junction
 		(at 62.23 99.06)
@@ -2065,6 +2131,12 @@
 		(uuid "c9449eca-393e-47bd-8f56-c170b507f49a")
 	)
 	(junction
+		(at 142.24 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddb639ab-3df2-4e9a-bea8-0c1c3885546b")
+	)
+	(junction
 		(at 67.31 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2083,10 +2155,22 @@
 		(uuid "dfeedd78-1ba7-47fd-a045-34d52c9a7802")
 	)
 	(junction
+		(at 119.38 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e94309cd-dace-4ba5-84e4-b0aab035cedb")
+	)
+	(junction
+		(at 127 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9d08d98-11bc-480c-b87b-1ac1e6a95d66")
+	)
+	(junction
 		(at 149.86 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f44d62d9-92ec-4302-b963-ad0951870b68")
+		(uuid "ee743441-22f4-4b55-bf38-f84da13e002e")
 	)
 	(no_connect
 		(at 254 109.22)
@@ -2107,16 +2191,6 @@
 	(no_connect
 		(at 266.7 99.06)
 		(uuid "74a54c07-0109-4d35-92fb-6fbb22fbb732")
-	)
-	(wire
-		(pts
-			(xy 127 66.04) (xy 134.62 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "013dc31a-52b7-4900-b4d3-1f1a96da8add")
 	)
 	(wire
 		(pts
@@ -2160,16 +2234,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 66.04) (xy 157.48 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bb6fdf1-1640-4e2d-917d-48cce5d468de")
-	)
-	(wire
-		(pts
 			(xy 67.31 143.51) (xy 82.55 143.51)
 		)
 		(stroke
@@ -2180,16 +2244,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 66.04) (xy 127 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c3cbee2-406e-4cdc-af1f-6fa25516f957")
-	)
-	(wire
-		(pts
 			(xy 52.07 66.04) (xy 54.61 66.04)
 		)
 		(stroke
@@ -2197,26 +2251,6 @@
 			(type default)
 		)
 		(uuid "0f9b6d3d-c57d-4337-b924-36755b045f7f")
-	)
-	(wire
-		(pts
-			(xy 142.24 66.04) (xy 149.86 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11833432-feb9-4c77-a217-2ad5c65cd59f")
-	)
-	(wire
-		(pts
-			(xy 111.76 66.04) (xy 119.38 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11d9b4e9-c38f-44fe-92a8-098ac3644002")
 	)
 	(wire
 		(pts
@@ -2280,13 +2314,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 66.04) (xy 142.24 66.04)
+			(xy 127 66.04) (xy 134.62 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25be2cb5-c537-49b9-b00e-91aee7168f83")
+		(uuid "28da5c9c-1511-4fda-973c-aef8cf731e2e")
 	)
 	(wire
 		(pts
@@ -2340,13 +2374,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 66.04) (xy 111.76 92.71)
+			(xy 134.62 66.04) (xy 134.62 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3773c2b6-29b5-4e74-bde3-79c20c96db2c")
+		(uuid "3a04c133-ffba-4eb6-83b3-bad94de03bb5")
 	)
 	(wire
 		(pts
@@ -2380,16 +2414,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 66.04) (xy 149.86 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f25b9ec-0bf4-43e3-b165-66a5cb5437c2")
-	)
-	(wire
-		(pts
 			(xy 46.99 96.52) (xy 46.99 111.76)
 		)
 		(stroke
@@ -2407,16 +2431,6 @@
 			(type default)
 		)
 		(uuid "3fe02de5-0f8a-4864-8080-072a894932df")
-	)
-	(wire
-		(pts
-			(xy 104.14 66.04) (xy 111.76 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "415380fc-463c-48d1-a737-3886a9fa84ab")
 	)
 	(wire
 		(pts
@@ -2440,7 +2454,17 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 66.04) (xy 104.14 92.71)
+			(xy 142.24 66.04) (xy 149.86 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b388e58-252e-492e-be7c-d4eedb5e2c2f")
+	)
+	(wire
+		(pts
+			(xy 104.14 66.04) (xy 104.14 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2457,6 +2481,16 @@
 			(type default)
 		)
 		(uuid "5404f3d7-0c16-47e2-a6b3-bca24794ae18")
+	)
+	(wire
+		(pts
+			(xy 149.86 66.04) (xy 149.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579894b6-7dbd-49c0-8b8c-b7a4b6eb664b")
 	)
 	(wire
 		(pts
@@ -2520,16 +2554,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 66.04) (xy 134.62 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6168a93d-73f0-421c-8de7-65b67aecd549")
-	)
-	(wire
-		(pts
 			(xy 265.43 143.51) (xy 265.43 146.05)
 		)
 		(stroke
@@ -2547,16 +2571,6 @@
 			(type default)
 		)
 		(uuid "61b80fa7-7025-4b3a-ac88-cd6be5e3028e")
-	)
-	(wire
-		(pts
-			(xy 119.38 66.04) (xy 119.38 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68906f88-b70a-48bc-9e27-95c28adffae0")
 	)
 	(wire
 		(pts
@@ -2607,6 +2621,16 @@
 			(type default)
 		)
 		(uuid "7a757cac-d0ba-4b08-9e9c-7cd7830d22b0")
+	)
+	(wire
+		(pts
+			(xy 149.86 66.04) (xy 157.48 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac5ef4f-d771-43ff-b358-57077f1099f0")
 	)
 	(wire
 		(pts
@@ -2680,6 +2704,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 66.04) (xy 162.56 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c7b9a9d-1c85-48ae-9dc5-10ebf5a9ccd9")
+	)
+	(wire
+		(pts
 			(xy 233.68 101.6) (xy 254 101.6)
 		)
 		(stroke
@@ -2687,6 +2721,16 @@
 			(type default)
 		)
 		(uuid "8e0f4cbd-6b1c-4c4e-8000-b1d9b672eb46")
+	)
+	(wire
+		(pts
+			(xy 111.76 66.04) (xy 111.76 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f7e85a6-03b7-47ff-ac27-0877f450a288")
 	)
 	(wire
 		(pts
@@ -2710,6 +2754,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 66.04) (xy 127 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "916ced23-d5ee-4408-a1df-2721f83aaf23")
+	)
+	(wire
+		(pts
 			(xy 95.25 109.22) (xy 119.38 109.22)
 		)
 		(stroke
@@ -2720,13 +2774,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 66.04) (xy 127 92.71)
+			(xy 157.48 87.63) (xy 157.48 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98147763-3db4-436d-a197-067fcb3417fd")
+		(uuid "986b4d9f-eb23-4958-839e-dc6c3ab776bc")
 	)
 	(wire
 		(pts
@@ -2790,6 +2844,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 66.04) (xy 142.24 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e62fbe-459a-4f77-b466-b8dbf29c4a19")
+	)
+	(wire
+		(pts
 			(xy 46.99 111.76) (xy 46.99 124.46)
 		)
 		(stroke
@@ -2850,6 +2914,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 66.04) (xy 119.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e4ff92-8ed5-48b0-a5d2-674a75285b0b")
+	)
+	(wire
+		(pts
 			(xy 95.25 111.76) (xy 127 111.76)
 		)
 		(stroke
@@ -2860,23 +2934,23 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 66.04) (xy 142.24 92.71)
+			(xy 111.76 66.04) (xy 119.38 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bdf2c359-8076-4811-8fe0-ee1ea3d1b0a2")
+		(uuid "bdf4f153-05fb-47a9-8ec6-3fb9435838a2")
 	)
 	(wire
 		(pts
-			(xy 157.48 66.04) (xy 157.48 92.71)
+			(xy 127 66.04) (xy 127 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1db6bfd-adbd-4f2d-89fe-095df73be29e")
+		(uuid "c1dee4cc-cd05-403c-bb0d-abd4a2361b24")
 	)
 	(wire
 		(pts
@@ -3040,7 +3114,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 66.04) (xy 162.56 66.04)
+			(xy 104.14 66.04) (xy 111.76 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3097,6 +3171,16 @@
 			(type default)
 		)
 		(uuid "fdc5cb6f-f32d-4671-815c-f62ffb1cff3a")
+	)
+	(wire
+		(pts
+			(xy 142.24 66.04) (xy 142.24 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff42e2f7-cde9-4524-9a0c-665d855e60c3")
 	)
 	(label "SDA"
 		(at 233.68 101.6 0)
@@ -3157,212 +3241,6 @@
 			(justify left bottom)
 		)
 		(uuid "ee47099f-3f54-4082-85f8-f84efd8e521b")
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 134.62 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "03351741-14b3-44c8-b3e2-992099919a1a")
-		(property "Reference" "D5"
-			(at 133.35 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MP-3014-1100-50-70"
-			(at 133.35 94.234 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 134.62 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 134.62 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 134.62 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" ""
-			(at 134.62 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b3d16e9e-5490-4bec-a171-dfedda556799")
-		)
-		(pin "1"
-			(uuid "141ad173-5363-4ce1-8358-c284a8c85840")
-		)
-		(instances
-			(project "retrolight-main"
-				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 142.24 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "07bb0a49-496e-43c7-88b7-5191039f9b8e")
-		(property "Reference" "D6"
-			(at 140.97 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MP-3014-1100-50-70"
-			(at 140.97 94.234 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 142.24 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 142.24 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 142.24 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" ""
-			(at 142.24 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b3c252e7-f0fc-47d6-ad7c-912ac229bd23")
-		)
-		(pin "1"
-			(uuid "b9fdde0b-5ec9-490b-9000-a43dafb78e71")
-		)
-		(instances
-			(project "retrolight-main"
-				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -3932,6 +3810,136 @@
 		)
 	)
 	(symbol
+		(lib_id "MP-3014-1100-50-70:MP-3014-1100-50-70")
+		(at 111.76 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e2d4d10-0080-4d3c-a641-d204f5e42acb")
+		(property "Reference" "D2"
+			(at 114.3 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP-3014-1100-50-70"
+			(at 114.3 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MP_3014_1100_50_70:LED_MP-3014-1100-50-70"
+			(at 111.76 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Rev. 09"
+			(at 111.76 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Luminus Devices Inc."
+			(at 111.76 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.57 mm"
+			(at 111.76 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 111.76 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "C"
+			(uuid "4fc42d7e-9c0a-41fa-8e53-d7d9f48f7b8b")
+		)
+		(pin "A"
+			(uuid "85ed9d82-a454-4fd0-adbc-0b4493ea2390")
+		)
+		(instances
+			(project "retrolight-main"
+				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 190.5 148.59 0)
 		(unit 1)
@@ -4100,6 +4108,266 @@
 		)
 	)
 	(symbol
+		(lib_id "MP-3014-1100-50-70:MP-3014-1100-50-70")
+		(at 119.38 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "35aedfc0-756c-4e6d-b8e1-9680345fe491")
+		(property "Reference" "D3"
+			(at 121.92 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP-3014-1100-50-70"
+			(at 121.92 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MP_3014_1100_50_70:LED_MP-3014-1100-50-70"
+			(at 119.38 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Rev. 09"
+			(at 119.38 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Luminus Devices Inc."
+			(at 119.38 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.57 mm"
+			(at 119.38 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 119.38 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "C"
+			(uuid "84386a3b-1b91-454a-8248-c9e5a3c84a88")
+		)
+		(pin "A"
+			(uuid "7c063c1b-bdf0-4bb8-9975-0ffa62ba7939")
+		)
+		(instances
+			(project "retrolight-main"
+				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MP-3014-1100-50-70:MP-3014-1100-50-70")
+		(at 157.48 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4789319e-8ed1-4b3a-994c-b067add54c03")
+		(property "Reference" "D8"
+			(at 160.02 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP-3014-1100-50-70"
+			(at 160.02 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MP_3014_1100_50_70:LED_MP-3014-1100-50-70"
+			(at 157.48 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Rev. 09"
+			(at 157.48 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Luminus Devices Inc."
+			(at 157.48 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.57 mm"
+			(at 157.48 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 157.48 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "C"
+			(uuid "3502b929-85a1-4213-a2cb-73378ad4b0c2")
+		)
+		(pin "A"
+			(uuid "b2bf4eca-b6c2-4b32-a9d1-3a019e8c5c46")
+		)
+		(instances
+			(project "retrolight-main"
+				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 269.24 111.76 0)
 		(unit 1)
@@ -4172,6 +4440,136 @@
 			(project "retrolight-main"
 				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MP-3014-1100-50-70:MP-3014-1100-50-70")
+		(at 142.24 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "583e704f-35aa-44fb-9dc0-12aaad4398ff")
+		(property "Reference" "D6"
+			(at 144.78 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP-3014-1100-50-70"
+			(at 144.78 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MP_3014_1100_50_70:LED_MP-3014-1100-50-70"
+			(at 142.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Rev. 09"
+			(at 142.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Luminus Devices Inc."
+			(at 142.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.57 mm"
+			(at 142.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 142.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "C"
+			(uuid "ec3fb223-2092-4182-abf4-448bd33c7296")
+		)
+		(pin "A"
+			(uuid "fdcbfe90-9fc1-4bb6-82fa-f5d1f90aa0c1")
+		)
+		(instances
+			(project "retrolight-main"
+				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4262,6 +4660,136 @@
 			(project "retrolight-main"
 				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MP-3014-1100-50-70:MP-3014-1100-50-70")
+		(at 149.86 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5d6d3080-1113-4137-91e9-90fbc253b8ff")
+		(property "Reference" "D7"
+			(at 152.4 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP-3014-1100-50-70"
+			(at 152.4 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MP_3014_1100_50_70:LED_MP-3014-1100-50-70"
+			(at 149.86 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Rev. 09"
+			(at 149.86 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Luminus Devices Inc."
+			(at 149.86 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.57 mm"
+			(at 149.86 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 149.86 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "C"
+			(uuid "25c9286b-bc3b-49c3-9f14-97f7cf545f55")
+		)
+		(pin "A"
+			(uuid "67ecc44e-ed33-4737-8f6e-8aab4cdae82e")
+		)
+		(instances
+			(project "retrolight-main"
+				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -4448,109 +4976,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 157.48 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6eb8125c-16c3-4dfc-8361-76a8b876aab2")
-		(property "Reference" "D8"
-			(at 156.21 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MP-3014-1100-50-70"
-			(at 156.21 94.234 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 157.48 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 157.48 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 157.48 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" ""
-			(at 157.48 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2b7c8524-c635-47c9-be8f-4fa059e82cc8")
-		)
-		(pin "1"
-			(uuid "82fb90f0-1812-460c-8f0d-acc26afdc0e2")
-		)
-		(instances
-			(project "retrolight-main"
-				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 40.64 63.5 0)
 		(unit 1)
@@ -4707,109 +5132,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 119.38 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "820e6169-5a6f-427b-94a0-6f7b11bf5e89")
-		(property "Reference" "D3"
-			(at 118.11 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MP-3014-1100-50-70"
-			(at 118.11 94.234 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 119.38 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 119.38 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 119.38 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" ""
-			(at 119.38 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3106edc6-ceda-4f62-87fa-f6c0448fc88e")
-		)
-		(pin "1"
-			(uuid "048e3e83-4b91-425b-bd05-706ecedcc69c")
-		)
-		(instances
-			(project "retrolight-main"
-				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 265.43 146.05 0)
 		(unit 1)
@@ -4888,8 +5210,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 127 96.52 90)
+		(lib_id "MP-3014-1100-50-70:MP-3014-1100-50-70")
+		(at 127 95.25 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4897,20 +5219,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "950884fc-afcd-4287-bce4-2171abcca0d0")
+		(uuid "8c2e9e43-2ea6-4663-978f-c1ef2cf51bb1")
 		(property "Reference" "D4"
-			(at 125.73 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MP-3014-1100-50-70"
-			(at 125.73 94.234 0)
+			(at 129.54 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4920,8 +5231,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 127 96.52 0)
+		(property "Value" "MP-3014-1100-50-70"
+			(at 129.54 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MP_3014_1100_50_70:LED_MP-3014-1100-50-70"
+			(at 127 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4929,10 +5251,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 96.52 0)
+			(at 127 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4942,8 +5265,8 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 127 96.52 0)
+		(property "Description" ""
+			(at 127 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4953,8 +5276,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 127 96.52 0)
+		(property "PARTREV" "Rev. 09"
+			(at 127 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4962,10 +5285,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "PROD_ID" ""
-			(at 127 96.52 0)
+		(property "MANUFACTURER" "Luminus Devices Inc."
+			(at 127 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4973,121 +5297,43 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(pin "2"
-			(uuid "6e30b347-d8e1-4823-8a0f-5a4328285112")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.57 mm"
+			(at 127 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "1"
-			(uuid "880667f9-9937-4950-9a14-d90268a3362e")
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 127 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "C"
+			(uuid "955f09d7-3841-44b1-a593-aab584c3f3a7")
+		)
+		(pin "A"
+			(uuid "ac549ff9-15ba-4e8c-b6ce-6c36e9a497c8")
 		)
 		(instances
 			(project "retrolight-main"
 				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 104.14 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "98f8ad69-4784-418a-bc74-9fa70c85a4ff")
-		(property "Reference" "D1"
-			(at 102.87 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MP-3014-1100-50-70"
-			(at 102.87 94.234 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 104.14 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 104.14 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 104.14 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" ""
-			(at 104.14 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4ea4b3d2-7d82-4211-8f5a-5cce64f8b4f8")
-		)
-		(pin "1"
-			(uuid "8403fd5f-eb12-449a-bc0d-9f85ea6c12c4")
-		)
-		(instances
-			(project "retrolight-main"
-				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5459,6 +5705,136 @@
 		)
 	)
 	(symbol
+		(lib_id "MP-3014-1100-50-70:MP-3014-1100-50-70")
+		(at 134.62 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "adb831de-1a90-4ef4-9ff1-aa6e2fbc1b94")
+		(property "Reference" "D5"
+			(at 137.16 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP-3014-1100-50-70"
+			(at 137.16 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MP_3014_1100_50_70:LED_MP-3014-1100-50-70"
+			(at 134.62 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Rev. 09"
+			(at 134.62 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Luminus Devices Inc."
+			(at 134.62 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.57 mm"
+			(at 134.62 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 134.62 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "C"
+			(uuid "bb1c0be8-8703-4d4d-b8de-e3914a435caf")
+		)
+		(pin "A"
+			(uuid "4cd2b911-2056-41ec-8793-f6eb1c91672f")
+		)
+		(instances
+			(project "retrolight-main"
+				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 67.31 128.27 0)
 		(unit 1)
@@ -5479,7 +5855,7 @@
 				)
 			)
 		)
-		(property "Value" "375R/R0603"
+		(property "Value" "750R/R0603"
 			(at 66.04 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5621,109 +5997,6 @@
 			(project "retrolight-main"
 				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 111.76 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "be9eeaea-cea5-4341-9ae2-a74254b03200")
-		(property "Reference" "D2"
-			(at 110.49 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MP-3014-1100-50-70"
-			(at 110.49 94.234 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 111.76 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 111.76 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 111.76 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" ""
-			(at 111.76 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "93b90bc2-ccd5-4c25-b073-99a168da3889")
-		)
-		(pin "1"
-			(uuid "979cf071-1975-47de-87fa-4f4e3c94afaf")
-		)
-		(instances
-			(project "retrolight-main"
-				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5988,109 +6261,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 149.86 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dd3c8bc7-0bb9-4bda-8639-9e4b96f07e0b")
-		(property "Reference" "D7"
-			(at 148.59 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MP-3014-1100-50-70"
-			(at 148.59 94.234 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 149.86 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 149.86 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 149.86 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" ""
-			(at 149.86 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2406f838-8cf1-4801-a0a5-77f31db980ae")
-		)
-		(pin "1"
-			(uuid "350ac0f4-7005-4701-9887-55215beaf7cf")
-		)
-		(instances
-			(project "retrolight-main"
-				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 256.54 146.05 180)
 		(unit 1)
@@ -6255,6 +6425,136 @@
 			(project "retrolight-main"
 				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MP-3014-1100-50-70:MP-3014-1100-50-70")
+		(at 104.14 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f711128e-18ce-4b94-9a6c-050e62dde4b4")
+		(property "Reference" "D1"
+			(at 106.68 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP-3014-1100-50-70"
+			(at 106.68 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MP_3014_1100_50_70:LED_MP-3014-1100-50-70"
+			(at 104.14 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "Rev. 09"
+			(at 104.14 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Luminus Devices Inc."
+			(at 104.14 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.57 mm"
+			(at 104.14 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 104.14 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "C"
+			(uuid "3b57d0a6-a651-4342-9df2-6e9cc1ea12cc")
+		)
+		(pin "A"
+			(uuid "6664f949-d900-4e89-836a-56555bbfaa5f")
+		)
+		(instances
+			(project "retrolight-main"
+				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
+					(reference "D1")
 					(unit 1)
 				)
 			)
