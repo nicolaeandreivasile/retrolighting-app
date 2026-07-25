@@ -1,4 +1,4 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "LED") (type "KiCad") (uri "${KIPRJMOD}/LED") (options "") (descr ""))
+	(lib (name "MP_3014_1100_50_70") (type "KiCad") (uri "${KIPRJMOD}/MP_3014_1100_50_70") (options "") (descr ""))
 )
