@@ -2023,7 +2023,7 @@
 		(uuid "1826f653-6526-4839-a0b9-0d156024738a")
 	)
 	(junction
-		(at 62.23 143.51)
+		(at 62.23 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "285cce39-8e9d-4f49-b63c-96c9fe236b9a")
@@ -2041,7 +2041,7 @@
 		(uuid "308f4a6a-9c43-4650-83da-1c08a3635274")
 	)
 	(junction
-		(at 52.07 143.51)
+		(at 52.07 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39e099d5-b1ed-48f2-8a87-739b3b57180b")
@@ -2071,6 +2071,12 @@
 		(uuid "5b2f82e0-cd60-4ff0-beda-53f2b99327a1")
 	)
 	(junction
+		(at 62.23 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f74d7e7-fea2-4847-ab83-5b5b56bae9bc")
+	)
+	(junction
 		(at 54.61 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2083,7 +2089,7 @@
 		(uuid "6d365a41-3ce1-4611-9ac0-ea8dd7c9abc1")
 	)
 	(junction
-		(at 49.53 143.51)
+		(at 49.53 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7102afdc-9941-4c24-8f3b-7f379972eb1b")
@@ -2099,12 +2105,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a4111a1-674f-491f-9f88-bb90aa7a7131")
-	)
-	(junction
-		(at 62.23 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f6afb9e-7770-47b9-aa33-0ab4a6f6ac91")
 	)
 	(junction
 		(at 46.99 111.76)
@@ -2125,7 +2125,7 @@
 		(uuid "b96eb82c-d8e5-4ada-b8b3-6e0662e56d5a")
 	)
 	(junction
-		(at 54.61 143.51)
+		(at 54.61 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9449eca-393e-47bd-8f56-c170b507f49a")
@@ -2137,7 +2137,7 @@
 		(uuid "ddb639ab-3df2-4e9a-bea8-0c1c3885546b")
 	)
 	(junction
-		(at 67.31 143.51)
+		(at 67.31 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddbe2063-ea05-41ab-b08a-8a573928a95d")
@@ -2149,7 +2149,7 @@
 		(uuid "df5979b0-04c6-4084-a82c-60d9e9eec968")
 	)
 	(junction
-		(at 82.55 143.51)
+		(at 82.55 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfeedd78-1ba7-47fd-a045-34d52c9a7802")
@@ -2234,7 +2234,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 143.51) (xy 82.55 143.51)
+			(xy 67.31 157.48) (xy 82.55 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2314,6 +2314,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 127) (xy 82.55 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2476ca9c-1774-49ef-908c-bbcdd75d8bdf")
+	)
+	(wire
+		(pts
 			(xy 127 66.04) (xy 134.62 66.04)
 		)
 		(stroke
@@ -2384,16 +2394,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 132.08) (xy 54.61 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b91aa33-3139-4ac6-8a5f-0ca7d331bc5a")
-	)
-	(wire
-		(pts
 			(xy 54.61 96.52) (xy 54.61 119.38)
 		)
 		(stroke
@@ -2424,7 +2424,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 143.51) (xy 54.61 143.51)
+			(xy 52.07 157.48) (xy 54.61 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2471,6 +2471,16 @@
 			(type default)
 		)
 		(uuid "4b6223c2-7172-4779-959c-83d507eaca0f")
+	)
+	(wire
+		(pts
+			(xy 54.61 132.08) (xy 54.61 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51075f52-348a-4ddc-8c29-c046c791cbb5")
 	)
 	(wire
 		(pts
@@ -2584,7 +2594,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 143.51) (xy 62.23 143.51)
+			(xy 67.31 157.48) (xy 62.23 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2604,7 +2614,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 143.51) (xy 82.55 146.05)
+			(xy 82.55 157.48) (xy 82.55 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2644,7 +2654,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 143.51) (xy 52.07 143.51)
+			(xy 49.53 157.48) (xy 52.07 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2814,7 +2824,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 143.51) (xy 46.99 143.51)
+			(xy 49.53 157.48) (xy 46.99 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2824,7 +2834,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 143.51) (xy 62.23 143.51)
+			(xy 54.61 157.48) (xy 62.23 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2834,7 +2844,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 132.08) (xy 49.53 143.51)
+			(xy 49.53 132.08) (xy 49.53 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3004,16 +3014,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 127) (xy 82.55 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d37282e5-9d3b-4ed2-99ef-a32e0dc46e7a")
-	)
-	(wire
-		(pts
 			(xy 269.24 109.22) (xy 269.24 111.76)
 		)
 		(stroke
@@ -3054,7 +3054,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 99.06) (xy 62.23 143.51)
+			(xy 62.23 99.06) (xy 62.23 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3104,7 +3104,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 143.51) (xy 46.99 132.08)
+			(xy 46.99 132.08) (xy 46.99 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3134,7 +3134,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 132.08) (xy 67.31 143.51)
+			(xy 67.31 132.08) (xy 67.31 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3154,7 +3154,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 132.08) (xy 52.07 143.51)
+			(xy 52.07 132.08) (xy 52.07 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3342,14 +3342,14 @@
 				)
 			)
 		)
-		(property "Value" "10K/R0603"
-			(at 48.26 81.28 90)
+		(property "Value" "10K/0.1W/1%/R0603"
+			(at 48.26 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(color 255 0 0 1)
+					(color 0 0 0 1)
 				)
 			)
 		)
@@ -3375,7 +3375,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
 			(at 49.53 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3386,7 +3386,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" ""
+		(property "PROD_ID" "RC0603FR-0710KL"
 			(at 49.53 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -3468,7 +3468,7 @@
 				)
 			)
 		)
-		(property "Description" "8-Channel, 8-Bit Fm+ I2C-Bus Constant-Current LED Sink Driver, TSSOP-20"
+		(property "Description" "IC LED DRVR LINEAR 120MA 20TSSOP"
 			(at 82.55 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -3479,7 +3479,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" ""
+		(property "PROD_ID" "TLC59108IPWR"
 			(at 82.55 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -3581,15 +3581,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/6.3V/20%/C0603"
-			(at 63.5 90.17 90)
+		(property "Value" "10uF/16V/10%C0603"
+			(at 63.5 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
@@ -3614,7 +3613,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 10UF 10% 16V X5R 0603"
 			(at 62.23 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3691,7 +3690,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" ""
+		(property "PROD_ID" "CC0603KRX5R7BB106"
 			(at 62.23 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -3739,14 +3738,14 @@
 				)
 			)
 		)
-		(property "Value" "10K/R0603"
-			(at 45.72 81.28 90)
+		(property "Value" "10K/0.1W/1%/R0603"
+			(at 45.72 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(color 255 0 0 1)
+					(color 0 0 0 1)
 				)
 			)
 		)
@@ -3772,7 +3771,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
 			(at 46.99 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3783,7 +3782,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" ""
+		(property "PROD_ID" "RC0603FR-0710KL"
 			(at 46.99 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -3865,7 +3864,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED COOL WHITE 5000K 3014"
 			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3924,6 +3923,17 @@
 				(justify bottom)
 			)
 		)
+		(property "PROD_ID" "MP-3014-1100-50-70"
+			(at 111.76 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "C"
 			(uuid "4fc42d7e-9c0a-41fa-8e53-d7d9f48f7b8b")
 		)
@@ -3951,7 +3961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fd4cb23-d1f6-4881-8f38-35d0ad117898")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 190.5 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -4011,7 +4021,7 @@
 		(instances
 			(project "retrolight-main"
 				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4038,8 +4048,8 @@
 				)
 			)
 		)
-		(property "Value" "0R/R0603"
-			(at 45.72 137.16 90)
+		(property "Value" "0R/0.1W/JUMPER/R0603"
+			(at 45.72 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4070,7 +4080,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 0 OHM JUMPER 1/10W 0603"
 			(at 46.99 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -4081,7 +4091,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" ""
+		(property "PROD_ID" "RC0603JR-070RL"
 			(at 46.99 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -4163,7 +4173,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED COOL WHITE 5000K 3014"
 			(at 119.38 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4220,6 +4230,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "PROD_ID" "MP-3014-1100-50-70"
+			(at 119.38 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "C"
@@ -4293,7 +4314,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED COOL WHITE 5000K 3014"
 			(at 157.48 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4350,6 +4371,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "PROD_ID" "MP-3014-1100-50-70"
+			(at 157.48 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "C"
@@ -4501,7 +4533,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED COOL WHITE 5000K 3014"
 			(at 142.24 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4558,6 +4590,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "PROD_ID" "MP-3014-1100-50-70"
+			(at 142.24 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "C"
@@ -4721,7 +4764,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED COOL WHITE 5000K 3014"
 			(at 149.86 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4780,6 +4823,17 @@
 				(justify bottom)
 			)
 		)
+		(property "PROD_ID" "MP-3014-1100-50-70"
+			(at 149.86 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "C"
 			(uuid "25c9286b-bc3b-49c3-9f14-97f7cf545f55")
 		)
@@ -4816,8 +4870,8 @@
 				)
 			)
 		)
-		(property "Value" "0R/R0603"
-			(at 48.26 137.16 90)
+		(property "Value" "0R/0.1W/JUMPER/R0603"
+			(at 48.26 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4848,7 +4902,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 0 OHM JUMPER 1/10W 0603"
 			(at 49.53 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -4859,7 +4913,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" ""
+		(property "PROD_ID" "RC0603JR-070RL"
 			(at 49.53 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -4906,8 +4960,8 @@
 				)
 			)
 		)
-		(property "Value" "0R/R0603"
-			(at 50.8 137.16 90)
+		(property "Value" "0R/0.1W/JUMPER/R0603"
+			(at 50.8 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4938,7 +4992,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 0 OHM JUMPER 1/10W 0603"
 			(at 52.07 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -4949,7 +5003,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" ""
+		(property "PROD_ID" "RC0603JR-070RL"
 			(at 52.07 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -5143,7 +5197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8764a746-794e-4236-910b-e72ddc8be84a")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 265.43 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -5203,7 +5257,7 @@
 		(instances
 			(project "retrolight-main"
 				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5265,7 +5319,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED COOL WHITE 5000K 3014"
 			(at 127 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5324,6 +5378,17 @@
 				(justify bottom)
 			)
 		)
+		(property "PROD_ID" "MP-3014-1100-50-70"
+			(at 127 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "C"
 			(uuid "955f09d7-3841-44b1-a593-aab584c3f3a7")
 		)
@@ -5361,15 +5426,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/6.3V/20%/C0603"
-			(at 68.58 90.17 90)
+		(property "Value" "100nF/16V/10%C0603"
+			(at 68.58 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
@@ -5394,7 +5458,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 10% 16V X7R 0603"
 			(at 67.31 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5471,7 +5535,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" ""
+		(property "PROD_ID" "CC0603KRX7R7BB104"
 			(at 67.31 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -5507,7 +5571,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a2cfeb17-5c98-4517-abe9-bbf98ef5ab5b")
 		(property "Reference" "J1"
 			(at 260.35 92.71 0)
@@ -5551,7 +5614,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 10POS 2.54MM"
 			(at 259.08 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5562,7 +5625,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" ""
+		(property "PROD_ID" "SBH11-PBPC-D05-ST-BK"
 			(at 259.08 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5634,8 +5697,8 @@
 				)
 			)
 		)
-		(property "Value" "10K/R0603"
-			(at 43.18 81.28 90)
+		(property "Value" "10K/0.1W/1%/R0603"
+			(at 43.18 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5667,7 +5730,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
 			(at 44.45 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5678,7 +5741,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" ""
+		(property "PROD_ID" "RC0603FR-0710KL"
 			(at 44.45 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -5760,7 +5823,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED COOL WHITE 5000K 3014"
 			(at 134.62 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5819,6 +5882,17 @@
 				(justify bottom)
 			)
 		)
+		(property "PROD_ID" "MP-3014-1100-50-70"
+			(at 134.62 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "C"
 			(uuid "bb1c0be8-8703-4d4d-b8de-e3914a435caf")
 		)
@@ -5855,8 +5929,8 @@
 				)
 			)
 		)
-		(property "Value" "750R/R0603"
-			(at 66.04 137.16 90)
+		(property "Value" "750R/0.1W/1%/R0603"
+			(at 66.04 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5887,7 +5961,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 750 OHM 1% 1/10W 0603"
 			(at 67.31 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5898,7 +5972,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" ""
+		(property "PROD_ID" "RC0603FR-07750RL"
 			(at 67.31 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -6094,7 +6168,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 146.05 0)
+		(at 82.55 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6104,8 +6178,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc97411c-473b-40d9-b4ad-bf0fc2bb0ad9")
-		(property "Reference" "#PWR06"
-			(at 82.55 152.4 0)
+		(property "Reference" "#PWR08"
+			(at 82.55 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6116,7 +6190,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 151.13 0)
+			(at 82.55 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6126,7 +6200,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 146.05 0)
+			(at 82.55 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6137,7 +6211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 146.05 0)
+			(at 82.55 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6148,7 +6222,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 146.05 0)
+			(at 82.55 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6164,7 +6238,7 @@
 		(instances
 			(project "retrolight-main"
 				(path "/be4ed349-6b8c-4761-97d0-0d6a89f091e9"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6191,8 +6265,8 @@
 				)
 			)
 		)
-		(property "Value" "0R/R0603"
-			(at 53.34 137.16 90)
+		(property "Value" "0R/0.1W/JUMPER/R0603"
+			(at 53.34 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6223,7 +6297,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 0 OHM JUMPER 1/10W 0603"
 			(at 54.61 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -6234,7 +6308,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" ""
+		(property "PROD_ID" "RC0603JR-070RL"
 			(at 54.61 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -6360,14 +6434,14 @@
 				)
 			)
 		)
-		(property "Value" "10K/R0603"
-			(at 50.8 81.28 90)
+		(property "Value" "10K/0.1W/1%/R0603"
+			(at 50.8 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(color 255 0 0 1)
+					(color 0 0 0 1)
 				)
 			)
 		)
@@ -6393,7 +6467,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
 			(at 52.07 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6404,7 +6478,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" ""
+		(property "PROD_ID" "RC0603FR-0710KL"
 			(at 52.07 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -6486,7 +6560,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED COOL WHITE 5000K 3014"
 			(at 104.14 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6543,6 +6617,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "PROD_ID" "MP-3014-1100-50-70"
+			(at 104.14 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "C"
@@ -6660,14 +6745,14 @@
 				)
 			)
 		)
-		(property "Value" "10K/R0603"
-			(at 53.34 81.28 90)
+		(property "Value" "10K/0.1W/1%/R0603"
+			(at 53.34 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(color 255 0 0 1)
+					(color 0 0 0 1)
 				)
 			)
 		)
@@ -6693,7 +6778,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
 			(at 54.61 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6704,7 +6789,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" ""
+		(property "PROD_ID" "RC0603FR-0710KL"
 			(at 54.61 92.71 90)
 			(hide yes)
 			(show_name no)

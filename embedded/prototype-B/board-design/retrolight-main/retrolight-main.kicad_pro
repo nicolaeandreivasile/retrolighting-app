@@ -643,7 +643,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -673,7 +673,7 @@
           "group_by": false,
           "label": "PROD_ID",
           "name": "PROD_ID",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -715,7 +715,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -746,8 +746,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Description"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
