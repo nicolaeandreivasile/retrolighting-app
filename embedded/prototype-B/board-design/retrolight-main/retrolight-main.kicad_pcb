@@ -70,7 +70,6 @@
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
-		(solder_mask_min_width 0.1016)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
 			(front yes)
@@ -174,12 +173,25 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RC0603JR-070RL"
+		(property "MPN" "RC0603JR-070RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e651e25c-c6dc-4370-8ee4-e65aae223910")
+			(uuid "d1745bb6-dc4c-4f54-bef8-d3d3c87d88ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26a6a977-472f-4c09-a8d4-cde0dcd4bdfb")
 			(effects
 				(font
 					(size 1 1)
@@ -334,12 +346,25 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "39eac71d-26b1-4d14-a76c-f6cf51a2ed7d")
+			(uuid "95906632-7848-44f1-acdc-ae2073bfd4ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31e7d7b6-414d-45ec-ae5f-589bc7d45247")
 			(effects
 				(font
 					(size 1 1)
@@ -494,12 +519,25 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RC0603JR-070RL"
+		(property "MPN" "RC0603JR-070RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "050d0cce-92fc-456a-b373-04c492f52891")
+			(uuid "3e4c8e47-6acc-46d4-b6ef-5a6ce9df614b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "651ed959-4752-4340-89de-dd801d8ffffb")
 			(effects
 				(font
 					(size 1 1)
@@ -654,12 +692,25 @@
 				)
 			)
 		)
-		(property "PROD_ID" ""
+		(property "MPN" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19d211e8-d122-43ef-a134-0f361c52feb4")
+			(uuid "511b57c9-d955-4ebf-ab19-f01f5b2b3c52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62bdbd8a-d369-4a0b-bd59-2eba00f9f55a")
 			(effects
 				(font
 					(size 1 1)
@@ -777,12 +828,25 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RC0603FR-07750RL"
+		(property "MPN" "RC0603FR-07750RL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9dabafd6-6fb4-46c1-8119-17df5741fead")
+			(uuid "5e767f6d-6e99-42fe-ae6a-0380bc70207e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f453ee78-e960-453a-98e8-e2e8f706fc6f")
 			(effects
 				(font
 					(size 1 1)
@@ -937,12 +1001,25 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d8f12f19-4200-4af6-831f-67520b2a9d5e")
+			(uuid "33969213-fb27-437b-8608-a8f3198cf70d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97d01b51-0c68-436c-8a1e-7f7ea15498f7")
 			(effects
 				(font
 					(size 1 1)
@@ -1097,12 +1174,25 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RC0603JR-070RL"
+		(property "MPN" "RC0603JR-070RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "726f929f-e8ac-468d-8c0e-a6c987c66c7d")
+			(uuid "c32586d2-d425-49e8-8a9d-291bac5af22f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb554ad8-9d83-4e2e-8a5b-979a5d66d0ef")
 			(effects
 				(font
 					(size 1 1)
@@ -1335,12 +1425,25 @@
 				)
 			)
 		)
-		(property "PROD_ID" "CC0603KRX7R7BB104"
+		(property "MPN" "CC0603KRX7R7BB104"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "325fb999-7e42-4884-92ea-885713220b5f")
+			(uuid "0df8a111-d7a8-462a-8026-896ba249f5d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "317d9172-ccea-4762-9f52-ca4226868f9a")
 			(effects
 				(font
 					(size 1 1)
@@ -1495,12 +1598,25 @@
 				)
 			)
 		)
-		(property "PROD_ID" "TLC59108IPWR"
+		(property "MPN" "TLC59108IPWR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "24d56113-86da-4c42-826e-913b0951d7d4")
+			(uuid "47036724-d8e6-40ab-9564-8921276d3056")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "20-TSSOP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad507cc6-f546-466b-935e-071fb4add22d")
 			(effects
 				(font
 					(size 1 1)
@@ -1961,12 +2077,25 @@
 				)
 			)
 		)
-		(property "PROD_ID" "SBH11-PBPC-D05-ST-BK"
+		(property "MPN" "SBH11-PBPC-D05-ST-BK"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6da5939-a017-4874-af62-6c6372ea27b2")
+			(uuid "ddb4bf33-7ea1-4b23-b24d-5644abf54875")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "IDC-Header_2x05_P2.54mm_Vertical"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78b0b759-a073-4a40-b819-a99ae8a77eaf")
 			(effects
 				(font
 					(size 1 1)
@@ -2443,12 +2572,25 @@
 				)
 			)
 		)
-		(property "PROD_ID" ""
+		(property "MPN" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ca6fad59-b29f-4e02-a3e7-435ec23ae5ff")
+			(uuid "b7af721b-b934-44ce-ac1a-efecabb3e4be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f16a515-8af9-44a8-a231-72aa41dbe1e1")
 			(effects
 				(font
 					(size 1 1)
@@ -2566,12 +2708,25 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1c56ea9c-d0eb-42ae-b0b5-d98d29ab9434")
+			(uuid "2900610b-f7fe-4e17-afdd-18619650c8c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e593a3c-bbe6-4e7c-833f-9a218f90cfa0")
 			(effects
 				(font
 					(size 1 1)
@@ -2726,12 +2881,25 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RC0603JR-070RL"
+		(property "MPN" "RC0603JR-070RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f031ef99-d2d8-4d13-a5e2-5538dc6a958e")
+			(uuid "a396a395-9475-45f7-a7b3-b828c70fe354")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e36f83d-cde5-4b67-b6b8-0a997cbd36b6")
 			(effects
 				(font
 					(size 1 1)
@@ -2886,12 +3054,25 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e7812e6-9170-46c4-b4fc-98df01f3c790")
+			(uuid "8a0e68e2-9c60-4224-a908-68cecc01130a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26413147-c53a-41fb-a466-94b940cdc36d")
 			(effects
 				(font
 					(size 1 1)
@@ -3046,12 +3227,25 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fbf72a4e-703c-4f7e-b3a7-b77ab1644678")
+			(uuid "6311bff5-6fc4-4a6c-a767-8531ee422396")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19e33113-58b2-4e32-8594-bb1921390478")
 			(effects
 				(font
 					(size 1 1)
@@ -3284,12 +3478,25 @@
 				)
 			)
 		)
-		(property "PROD_ID" "CC0603KRX5R7BB106"
+		(property "MPN" "CC0603KRX5R7BB106"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ae727bb7-bed3-4d1a-a03b-325ee07f4583")
+			(uuid "ee7f0c78-6d45-4731-92b8-de8c85a10624")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16a3d21b-3b68-400e-923d-7590f3b94955")
 			(effects
 				(font
 					(size 1 1)
@@ -3502,12 +3709,26 @@
 				(justify mirror)
 			)
 		)
-		(property "PROD_ID" "MP-3014-1100-50-70"
+		(property "MPN" "MP-3014-1100-50-70"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7e8843a8-b959-4b89-926d-414ca5486d1c")
+			(uuid "1f70ba6a-ab9f-4fff-804e-3a733131d1b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "MP-3014-1100-50-70"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f580c456-3e00-47dc-b51f-57ea5a864003")
 			(effects
 				(font
 					(size 1 1)
@@ -3885,12 +4106,26 @@
 				(justify mirror)
 			)
 		)
-		(property "PROD_ID" "MP-3014-1100-50-70"
+		(property "MPN" "MP-3014-1100-50-70"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1aff71a8-00b5-40e2-8720-f99b70439a19")
+			(uuid "851ac76e-421f-4d42-ab28-6d7418336968")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "MP-3014-1100-50-70"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "48aee05b-1d20-4da8-82aa-fc6f00dcd7c7")
 			(effects
 				(font
 					(size 1 1)
@@ -4268,12 +4503,26 @@
 				(justify mirror)
 			)
 		)
-		(property "PROD_ID" "MP-3014-1100-50-70"
+		(property "MPN" "MP-3014-1100-50-70"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d4232227-b4e5-4d54-9a9d-6fbc90bb3100")
+			(uuid "7e57e0be-3761-4642-9f68-a68f16349ca9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "MP-3014-1100-50-70"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "93bf4d81-b730-4810-8fa8-f0d05bcc6ab4")
 			(effects
 				(font
 					(size 1 1)
@@ -4651,12 +4900,26 @@
 				(justify mirror)
 			)
 		)
-		(property "PROD_ID" "MP-3014-1100-50-70"
+		(property "MPN" "MP-3014-1100-50-70"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "769ea08e-6933-4c2d-8fa8-0a7ded5cf93c")
+			(uuid "184b59ab-bdd4-4d99-880d-ece804fb8095")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "MP-3014-1100-50-70"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "63214edf-9c41-4a5b-b007-488b070ef893")
 			(effects
 				(font
 					(size 1 1)
@@ -5034,12 +5297,26 @@
 				(justify mirror)
 			)
 		)
-		(property "PROD_ID" "MP-3014-1100-50-70"
+		(property "MPN" "MP-3014-1100-50-70"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3813b521-536c-4a88-901d-bb00891b5764")
+			(uuid "3f5e629e-2fa8-4a29-bf3e-99f3dcde1deb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "MP-3014-1100-50-70"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e0c9d110-85bb-458d-8c53-bab2ae26e9b6")
 			(effects
 				(font
 					(size 1 1)
@@ -5417,12 +5694,26 @@
 				(justify mirror)
 			)
 		)
-		(property "PROD_ID" "MP-3014-1100-50-70"
+		(property "MPN" "MP-3014-1100-50-70"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ea5ff33c-0bfd-4a4e-b697-d03970cf0939")
+			(uuid "0e7ab0a3-c9bc-4faf-aef0-0922f2e18dc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "MP-3014-1100-50-70"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2f03f4b9-4e40-4ad7-ac8d-0a012ca7033f")
 			(effects
 				(font
 					(size 1 1)
@@ -5800,12 +6091,26 @@
 				(justify mirror)
 			)
 		)
-		(property "PROD_ID" "MP-3014-1100-50-70"
+		(property "MPN" "MP-3014-1100-50-70"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d81f6e77-11cb-4d45-a5e2-6e419c46b4dc")
+			(uuid "8d546537-dee7-42a4-b0a8-0d32291e41bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "MP-3014-1100-50-70"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d6f0f732-0338-4fa5-9e56-0f177f033b3c")
 			(effects
 				(font
 					(size 1 1)
@@ -6183,12 +6488,26 @@
 				(justify mirror)
 			)
 		)
-		(property "PROD_ID" "MP-3014-1100-50-70"
+		(property "MPN" "MP-3014-1100-50-70"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6ee91973-0a26-4e47-8837-c86c2e8edab9")
+			(uuid "5fe00ab5-b04a-4008-9e19-a04925248fad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "MP-3014-1100-50-70"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c27423a3-0251-4b78-8591-3fd98f666274")
 			(effects
 				(font
 					(size 1 1)

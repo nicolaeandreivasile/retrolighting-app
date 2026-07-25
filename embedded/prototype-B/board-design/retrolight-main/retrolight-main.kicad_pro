@@ -671,12 +671,6 @@
         },
         {
           "group_by": false,
-          "label": "PROD_ID",
-          "name": "PROD_ID",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Price",
           "name": "Price",
           "show": false
@@ -740,6 +734,18 @@
           "label": "MANUFACTURER",
           "name": "MANUFACTURER",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -747,7 +753,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": false,
-      "sort_field": "Description"
+      "sort_field": "Price"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
