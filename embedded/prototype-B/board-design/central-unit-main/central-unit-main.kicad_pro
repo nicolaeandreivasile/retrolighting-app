@@ -643,7 +643,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -763,7 +763,7 @@
           "group_by": false,
           "label": "Package",
           "name": "Package",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -835,7 +835,13 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -893,7 +899,7 @@
         "uuid": "baa8ab85-8b75-4cee-ab91-40606360b161"
       }
     ],
-    "used_designators": "TP1-8,TH1,#FLG1-6,Y1-2,#PWR1-37,BAT1,IC1,C1-32,U1-6,D1-3,H1-4,J1-4,FB1-2,L1,R1-34,S1,SW1",
+    "used_designators": "TP1-8,TH1,#FLG1-6,Y1-2,#PWR1-37,BAT1,IC1,C1-32,U1-6,D1-3,H1-4,J1-4,FB1-2,L1,R1-29,S1,SW1",
     "variants": []
   },
   "sheets": [

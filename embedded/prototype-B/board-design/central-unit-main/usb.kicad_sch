@@ -2195,12 +2195,6 @@
 		(uuid "37f4e62d-2e8b-4e07-a4d0-afc929a6a3da")
 	)
 	(junction
-		(at 146.05 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e13b4ce-c45f-471a-9a16-55b56265d888")
-	)
-	(junction
 		(at 88.9 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2243,6 +2237,12 @@
 		(uuid "978c591d-b0b3-4c50-ad9c-9512a54ab13c")
 	)
 	(junction
+		(at 143.51 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a17665e9-71d2-43ea-944a-aeb4ab370539")
+	)
+	(junction
 		(at 88.9 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2261,16 +2261,16 @@
 		(uuid "d048b7e6-e2ac-41be-92d0-c93329703bd0")
 	)
 	(junction
+		(at 143.51 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d748d83b-ae3d-4b91-9c3b-a705514865fe")
+	)
+	(junction
 		(at 101.6 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8e81824-87df-4c6f-a9ec-0820d35d559b")
-	)
-	(junction
-		(at 146.05 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dadf6a43-cc2e-47ba-a32a-dd54cdbb6597")
 	)
 	(junction
 		(at 138.43 78.74)
@@ -2514,7 +2514,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 104.14) (xy 146.05 111.76)
+			(xy 143.51 110.49) (xy 143.51 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2541,6 +2541,16 @@
 			(type default)
 		)
 		(uuid "5cfc2064-74c2-47b9-b2a9-f56224576bb3")
+	)
+	(wire
+		(pts
+			(xy 143.51 111.76) (xy 170.18 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61efa8e2-be3f-48db-9219-af6b875b8fc4")
 	)
 	(wire
 		(pts
@@ -2654,16 +2664,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 111.76) (xy 170.18 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f8bea6e-2140-453c-93dd-af1582054bcc")
-	)
-	(wire
-		(pts
 			(xy 135.89 76.2) (xy 135.89 97.79)
 		)
 		(stroke
@@ -2734,17 +2734,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 86.36) (xy 167.64 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f0afe77-98d5-43ae-9c28-c4c720aa150d")
-	)
-	(wire
-		(pts
-			(xy 127 111.76) (xy 146.05 111.76)
+			(xy 127 111.76) (xy 143.51 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2864,6 +2854,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 86.36) (xy 167.64 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc028b86-7161-4b94-8427-97e5a0a1cd68")
+	)
+	(wire
+		(pts
 			(xy 170.18 99.06) (xy 170.18 111.76)
 		)
 		(stroke
@@ -2874,7 +2874,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 86.36) (xy 146.05 86.36)
+			(xy 127 86.36) (xy 143.51 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3004,7 +3004,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 86.36) (xy 146.05 93.98)
+			(xy 143.51 86.36) (xy 143.51 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3154,7 +3154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2339fbc9-e397-46ad-b1f1-2bf630bdd0ee")
-		(property "Reference" "R15"
+		(property "Reference" "R10"
 			(at 86.36 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3165,7 +3165,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33K/R0603"
+		(property "Value" "33K/0.1W/1%/R0603"
 			(at 86.36 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3198,7 +3198,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 33K OHM 1% 1/10W 0603"
 			(at 88.9 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3231,6 +3231,28 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-0733KL"
+			(at 88.9 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 88.9 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "431e255d-8b4d-4bde-a995-6ad30f3e7399")
 		)
@@ -3240,7 +3262,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/0874b7fa-6631-41bc-8ca3-fd3382c89502"
-					(reference "R15")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3301,7 +3323,7 @@
 				)
 			)
 		)
-		(property "Description" "Universal Serial Bus (USB) Shielded I/O Receptacle, Type C, Right-Angle, Surface Mount, Top Mount, Single Row, 16 Circuits, Gold (Au) Plating"
+		(property "Description" "CONN RCP USB2.0 TYP C 24P SMD RA"
 			(at 190.5 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3336,7 +3358,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "None"
+		(property "Package" "2171790001"
 			(at 190.5 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3480,6 +3502,17 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 190.5 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "2171790001"
 			(at 190.5 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3659,7 +3692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 73.66 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3681,7 +3714,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "PC TEST POINT MINIATURE BLACK"
 			(at 68.58 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3714,6 +3747,28 @@
 				)
 			)
 		)
+		(property "MPN" "5001"
+			(at 68.58 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "5001"
+			(at 68.58 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "db54dc61-898f-4915-83fc-85db576c4eee")
 		)
@@ -3728,7 +3783,7 @@
 	)
 	(symbol
 		(lib_id "ESDA7P60-1U1M:ESDA7P60-1U1M")
-		(at 146.05 99.06 270)
+		(at 143.51 105.41 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3739,7 +3794,7 @@
 		(fields_autoplaced yes)
 		(uuid "670212df-864b-476d-895f-33da21ee5b6c")
 		(property "Reference" "D1"
-			(at 148.59 97.7899 90)
+			(at 146.05 104.1399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3750,7 +3805,7 @@
 			)
 		)
 		(property "Value" "ESDA7P60-1U1M"
-			(at 148.59 100.3299 90)
+			(at 146.05 106.6799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3761,7 +3816,7 @@
 			)
 		)
 		(property "Footprint" "ESDA7P60-1U1M:TVS_ESDA7P60-1U1M"
-			(at 146.05 99.06 0)
+			(at 143.51 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3773,7 +3828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 99.06 0)
+			(at 143.51 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3783,8 +3838,8 @@
 				)
 			)
 		)
-		(property "Description" "11.6V Clamp 60A (8/20µs) Ipp Tvs Diode Surface Mount 1610"
-			(at 146.05 99.06 0)
+		(property "Description" "TVS DIODE 5VWM 11.6VC 1610"
+			(at 143.51 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3796,7 +3851,7 @@
 			)
 		)
 		(property "MF" "STMicroelectronics"
-			(at 146.05 99.06 0)
+			(at 143.51 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3808,7 +3863,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.60mm"
-			(at 146.05 99.06 0)
+			(at 143.51 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3820,7 +3875,7 @@
 			)
 		)
 		(property "CREATOR" "NEZY"
-			(at 146.05 99.06 0)
+			(at 143.51 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3832,7 +3887,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 146.05 99.06 0)
+			(at 143.51 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3843,8 +3898,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "1610 STMicroelectronics"
-			(at 146.05 99.06 0)
+		(property "Package" "2-UDFN 1610"
+			(at 143.51 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3856,7 +3911,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ESDA7P60-1U1M/STMicroelectronics/view-part/?ref=eda"
-			(at 146.05 99.06 0)
+			(at 143.51 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3868,7 +3923,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 146.05 99.06 0)
+			(at 143.51 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3880,7 +3935,7 @@
 			)
 		)
 		(property "PARTREV" "4"
-			(at 146.05 99.06 0)
+			(at 143.51 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3892,7 +3947,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 146.05 99.06 0)
+			(at 143.51 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3904,7 +3959,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESDA7P60-1U1M/STMicroelectronics/view-part/?ref=snap"
-			(at 146.05 99.06 0)
+			(at 143.51 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3916,7 +3971,7 @@
 			)
 		)
 		(property "MP" "ESDA7P60-1U1M"
-			(at 146.05 99.06 0)
+			(at 143.51 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3928,7 +3983,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=828103&manufacturer=STMicroelectronics&part_name=ESDA7P60-1U1M&search_term=esda7p60-1u1m"
-			(at 146.05 99.06 0)
+			(at 143.51 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3940,7 +3995,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 146.05 99.06 0)
+			(at 143.51 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3952,7 +4007,7 @@
 			)
 		)
 		(property "MANUFACTURER" "STMicroelectronics"
-			(at 146.05 99.06 0)
+			(at 143.51 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3961,6 +4016,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "MPN" "ESDA7P60-1U1M"
+			(at 143.51 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3990,7 +4056,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6bb78b95-d9b9-44ea-b00c-312ba930fcb6")
-		(property "Reference" "R17"
+		(property "Reference" "R12"
 			(at 215.9 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4001,7 +4067,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.1K/R0603"
+		(property "Value" "5.1K/0.1W/1%/R0603"
 			(at 215.9 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4034,7 +4100,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 5.1K OHM 1% 1/10W 0603"
 			(at 213.36 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4067,6 +4133,28 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-075K1L"
+			(at 213.36 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 213.36 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "12df9883-d520-42ec-b398-8d6613776d26")
 		)
@@ -4076,7 +4164,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/0874b7fa-6631-41bc-8ca3-fd3382c89502"
-					(reference "R17")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4116,7 +4204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 78.74 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4138,7 +4226,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "PC TEST POINT MINIATURE BLACK"
 			(at 73.66 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4161,6 +4249,28 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 73.66 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5001"
+			(at 73.66 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "5001"
 			(at 73.66 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -4217,7 +4327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 81.28 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4239,7 +4349,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "PC TEST POINT MINIATURE BLACK"
 			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4262,6 +4372,28 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 76.2 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5001"
+			(at 76.2 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "5001"
 			(at 76.2 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -4374,7 +4506,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91ca381d-3cec-4ec2-a8cc-7d05013dfe8e")
-		(property "Reference" "R18"
+		(property "Reference" "R13"
 			(at 86.36 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4385,7 +4517,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "82K/R0603"
+		(property "Value" "82K/0.1W/1%/R0603"
 			(at 86.36 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4418,7 +4550,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 82K OHM 1% 1/10W 0603"
 			(at 88.9 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4451,6 +4583,28 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-0782KL"
+			(at 88.9 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 88.9 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "39838f7b-aaa3-4ecc-babe-c05c81b9d729")
 		)
@@ -4460,7 +4614,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/0874b7fa-6631-41bc-8ca3-fd3382c89502"
-					(reference "R18")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4477,7 +4631,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96b87aee-7cad-4089-84dc-e32aeb3cb6d7")
-		(property "Reference" "R16"
+		(property "Reference" "R11"
 			(at 167.64 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4488,7 +4642,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.1K/R0603"
+		(property "Value" "5.1K/0.1W/1%/R0603"
 			(at 167.64 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4521,7 +4675,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 5.1K OHM 1% 1/10W 0603"
 			(at 170.18 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4554,6 +4708,28 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-075K1L"
+			(at 170.18 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 170.18 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f66bcea6-f081-4cbd-9560-9ece265151ff")
 		)
@@ -4563,7 +4739,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/0874b7fa-6631-41bc-8ca3-fd3382c89502"
-					(reference "R16")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4628,7 +4804,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+		(property "Description" "TVS DIODE 5.25VWM 17VC SOT23-6"
 			(at 127 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4651,6 +4827,28 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 127 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "USBLC6-2SC6"
+			(at 127 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "SOT-23-6"
 			(at 127 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4722,7 +4920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4744,7 +4942,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "PC TEST POINT MINIATURE BLACK"
 			(at 71.12 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4777,6 +4975,28 @@
 				)
 			)
 		)
+		(property "MPN" "5001"
+			(at 71.12 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "5001"
+			(at 71.12 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d5ced908-ed99-429b-b5ba-040d1a20a3ea")
 		)
@@ -4799,7 +5019,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ce336099-5875-48d3-a8b2-53cfb1f212e3")
 		(property "Reference" "C23"
 			(at 100.33 101.6 90)
@@ -4812,7 +5032,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF/6.3V/20%/C0603"
+		(property "Value" "10uF/16V/10%/C0603"
 			(at 100.33 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4845,7 +5065,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 10UF 10% 16V X5R 0603"
 			(at 101.6 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4934,6 +5154,28 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 101.6 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX5R7BB106"
+			(at 101.6 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
 			(at 101.6 99.06 90)
 			(hide yes)
 			(show_name no)
