@@ -2688,7 +2688,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/6.3V/20%/C0603"
+		(property "Value" "10uF/16V/10%/C0603"
 			(at 168.91 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2721,7 +2721,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 10UF 10% 16V X5R 0603"
 			(at 167.64 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -2820,6 +2820,28 @@
 				)
 			)
 		)
+		(property "MPN" "CC0603KRX5R7BB106"
+			(at 167.64 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 167.64 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1922645f-ec04-4027-ad49-ac317b9e738e")
 		)
@@ -2891,7 +2913,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED RED CLEAR SMD"
 			(at 144.78 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2925,6 +2947,28 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 144.78 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-C170KRKT"
+			(at 144.78 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0805 (2012 Metric)"
 			(at 144.78 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -3006,7 +3050,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED GREEN CLEAR SMD"
 			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3050,6 +3094,28 @@
 				)
 			)
 		)
+		(property "MPN" "LTST-C170GKT"
+			(at 149.86 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0805 (2012 Metric)"
+			(at 149.86 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "43cf7867-a4f0-405d-962c-0c2978222afe")
 		)
@@ -3076,7 +3142,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39e8fd26-e4f4-411a-9f44-81ddf19b54ce")
-		(property "Reference" "R19"
+		(property "Reference" "R14"
 			(at 102.87 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3087,7 +3153,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68K/R0603"
+		(property "Value" "68K/0.1W/1%/R0603"
 			(at 102.87 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3120,7 +3186,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 68K OHM 1% 1/10W 0603"
 			(at 101.6 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3153,6 +3219,28 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-0768KL"
+			(at 101.6 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 101.6 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5dcebc5e-0bc9-4fb9-89d9-21a5f068ba5c")
 		)
@@ -3162,7 +3250,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/0d9b0fcc-d01e-4009-b64e-b7ee43f093f4"
-					(reference "R19")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3179,19 +3267,19 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49393b38-9e08-46cb-a244-dff4abe433d8")
-		(property "Reference" "R22"
-			(at 142.24 114.3 0)
+		(property "Reference" "R17"
+			(at 143.51 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "1.5K/R0603"
-			(at 142.24 116.84 0)
+		(property "Value" "1.5K/0.1W/1%/R0603"
+			(at 143.51 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3223,7 +3311,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1.5K OHM 1% 1/10W 0603"
 			(at 144.78 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3256,6 +3344,28 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-071K5L"
+			(at 144.78 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 144.78 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5254ad55-65da-4be7-81e7-c0ed7bd63ed8")
 		)
@@ -3265,7 +3375,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/0d9b0fcc-d01e-4009-b64e-b7ee43f093f4"
-					(reference "R22")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3383,7 +3493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 210.82 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3405,7 +3515,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "PC TEST POINT MINIATURE BLACK"
 			(at 205.74 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3428,6 +3538,28 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 205.74 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5001"
+			(at 205.74 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "5001"
 			(at 205.74 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -3461,7 +3593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e82b5e0-bf6c-4c09-ad97-66132a80eff2")
-		(property "Reference" "R20"
+		(property "Reference" "R15"
 			(at 110.49 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3472,7 +3604,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.48K/R0603"
+		(property "Value" "3.48K/0.1W/1%/R0603"
 			(at 110.49 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3505,7 +3637,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 3.48K OHM 1% 1/10W 0603"
 			(at 109.22 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3538,6 +3670,28 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-073K48L"
+			(at 109.22 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 109.22 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d28f94a1-bba0-417b-afa0-d270945cef1c")
 		)
@@ -3547,7 +3701,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/0d9b0fcc-d01e-4009-b64e-b7ee43f093f4"
-					(reference "R20")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -3610,7 +3764,7 @@
 				)
 			)
 		)
-		(property "Description" "USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"
+		(property "Description" "IC BATT CHG LI-ION 1CELL 16QFN"
 			(at 127 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3633,6 +3787,28 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 127 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BQ24074RGTR"
+			(at 127 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "16-VQFN (3x3)"
 			(at 127 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3714,8 +3890,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ea83a05-568b-4797-b6ad-88ef2384cd89")
-		(property "Reference" "R23"
-			(at 152.4 114.3 0)
+		(property "Reference" "R18"
+			(at 151.13 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3725,15 +3901,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5K/R0603"
-			(at 152.4 116.84 0)
+		(property "Value" "1.5K/0.1W/1%/R0603"
+			(at 151.13 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -3758,7 +3934,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1.5K OHM 1% 1/10W 0603"
 			(at 149.86 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3791,6 +3967,28 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-071K5L"
+			(at 149.86 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 149.86 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4e98dcc1-53be-4784-86eb-e8e666c3a170")
 		)
@@ -3800,7 +3998,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/0d9b0fcc-d01e-4009-b64e-b7ee43f093f4"
-					(reference "R23")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3984,7 +4182,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/6.3V/20%/C0603"
+		(property "Value" "10uF/16V/10%/C0603"
 			(at 207.01 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4017,7 +4215,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 10UF 10% 16V X5R 0603"
 			(at 205.74 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4116,6 +4314,28 @@
 				)
 			)
 		)
+		(property "MPN" "CC0603KRX5R7BB106"
+			(at 205.74 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 205.74 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2a4d1c61-5742-42fa-9aad-a31e7eae804d")
 		)
@@ -4153,7 +4373,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF/6.3V/20%/C0603"
+		(property "Value" "10uF/16V/10%/C0603"
 			(at 85.09 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4186,7 +4406,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 10UF 10% 16V X5R 0603"
 			(at 83.82 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4275,6 +4495,28 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 83.82 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX5R7BB106"
+			(at 83.82 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
 			(at 83.82 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -4356,7 +4598,7 @@
 				)
 			)
 		)
-		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+		(property "Description" "THERMISTOR NTC 10KOHM 3380K 0603"
 			(at 179.07 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4379,6 +4621,28 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 179.07 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NCU18XH103F60RB"
+			(at 179.07 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
 			(at 179.07 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4415,7 +4679,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd39e44e-1c5d-4d4e-b067-8e827e15e97f")
-		(property "Reference" "R21"
+		(property "Reference" "R16"
 			(at 113.03 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4426,7 +4690,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.21K/R0603"
+		(property "Value" "2.21K/0.1W/1%/R0603"
 			(at 113.03 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4459,7 +4723,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 2.21K OHM 1% 1/10W 0603"
 			(at 111.76 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4492,6 +4756,28 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-072K21L"
+			(at 111.76 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 111.76 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0683f7f1-51c9-43d1-a796-127337b6e6ac")
 		)
@@ -4501,7 +4787,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/0d9b0fcc-d01e-4009-b64e-b7ee43f093f4"
-					(reference "R21")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4565,7 +4851,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "KEYSTONE - 1043 - BATTERY HOLDER, 18650, TH"
+		(property "Description" "BATTERY HOLDER 18650 PC PIN"
 			(at 176.53 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4672,6 +4958,28 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 176.53 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1043"
+			(at 176.53 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "1043"
 			(at 176.53 83.82 0)
 			(hide yes)
 			(show_name no)

@@ -1458,7 +1458,7 @@
 	)
 	(rectangle
 		(start 31.75 146.05)
-		(end 63.5 190.5)
+		(end 88.9 190.5)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1483,13 +1483,13 @@
 	)
 	(text "Pull-up resistors\nfor I2C lines"
 		(exclude_from_sim no)
-		(at 33.02 147.32 0)
+		(at 87.63 147.32 0)
 		(effects
 			(font
 				(size 1.905 1.905)
 				(color 0 0 0 1)
 			)
-			(justify left top)
+			(justify right top)
 		)
 		(uuid "5dcac6c3-158f-4046-8e22-1ebb75474e3a")
 	)
@@ -2492,7 +2492,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/6.3V/20%/C0603"
+		(property "Value" "100nF/16V/10%/C0603"
 			(at 106.68 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2525,7 +2525,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 10% 16V X7R 0603"
 			(at 105.41 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2614,6 +2614,28 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 105.41 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R7BB104"
+			(at 105.41 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
 			(at 105.41 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -2739,7 +2761,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/6.3V/20%/C0603"
+		(property "Value" "100nF/16V/10%/C0603"
 			(at 237.49 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2772,7 +2794,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 10% 16V X7R 0603"
 			(at 236.22 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2861,6 +2883,28 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 236.22 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R7BB104"
+			(at 236.22 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
 			(at 236.22 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -2908,7 +2952,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/6.3V/20%/C0603"
+		(property "Value" "10uF/16V/10%/C0603"
 			(at 111.76 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2941,7 +2985,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 10UF 10% 16V X5R 0603"
 			(at 110.49 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3040,6 +3084,28 @@
 				)
 			)
 		)
+		(property "MPN" "CC0603KRX5R7BB106"
+			(at 110.49 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 110.49 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0bdfa8b6-d295-4161-9ccf-cde0174a6d7a")
 		)
@@ -3077,7 +3143,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG121SN1D"
+		(property "Value" "120R @ 100MHz"
 			(at 123.1392 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3109,7 +3175,7 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "FERRITE BEAD 120 OHM 0603 1LN"
 			(at 123.19 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3132,6 +3198,28 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 123.19 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BLM18PG121SN1D"
+			(at 123.19 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
 			(at 123.19 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -3168,7 +3256,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a03ab53-38f4-46a0-b258-377c1059c2fc")
-		(property "Reference" "R25"
+		(property "Reference" "R20"
 			(at 138.43 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3179,7 +3267,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K/R0603"
+		(property "Value" "10K/0.1W/1%/R0603"
 			(at 138.43 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3212,7 +3300,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
 			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3245,6 +3333,28 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 135.89 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 135.89 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "92a73e2d-d7c3-499d-9d5b-458c4d73df7d")
 		)
@@ -3254,7 +3364,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/86f0e54b-9e1c-4445-9a24-509c49d1d218"
-					(reference "R25")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -3271,7 +3381,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a4b0103-b7d8-499f-bcca-6b9fc15d2814")
-		(property "Reference" "R26"
+		(property "Reference" "R21"
 			(at 43.18 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3282,7 +3392,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K/R0603"
+		(property "Value" "10K/0.1W/1%/R0603"
 			(at 43.18 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3315,7 +3425,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
 			(at 41.91 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -3348,6 +3458,28 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 41.91 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 41.91 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "39dcd97d-a81a-4d9c-a1ff-44cdfe9354b2")
 		)
@@ -3357,7 +3489,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/86f0e54b-9e1c-4445-9a24-509c49d1d218"
-					(reference "R26")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -3385,7 +3517,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/6.3V/20%/C0603"
+		(property "Value" "100nF/16V/10%/C0603"
 			(at 62.23 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3418,7 +3550,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 10% 16V X7R 0603"
 			(at 60.96 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3507,6 +3639,28 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 60.96 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R7BB104"
+			(at 60.96 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
 			(at 60.96 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -3632,7 +3786,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/6.3V/20%/C0603"
+		(property "Value" "10uF/16V/10%/C0603"
 			(at 242.57 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3665,7 +3819,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 10UF 10% 16V X5R 0603"
 			(at 241.3 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3764,6 +3918,28 @@
 				)
 			)
 		)
+		(property "MPN" "CC0603KRX5R7BB106"
+			(at 241.3 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 241.3 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9024bc0a-123d-4300-864e-2ce4b7a2ad40")
 		)
@@ -3836,7 +4012,7 @@
 				)
 			)
 		)
-		(property "Description" "3-Axis Accelerometer, 2/4/8g range, I2C/SPI interface"
+		(property "Description" "ACCELEROMETER 2-8G I2C/SPI 12LGA"
 			(at 81.28 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3859,6 +4035,28 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 81.28 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LIS2HH12TR"
+			(at 81.28 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "12-LGA (2x2)"
 			(at 81.28 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4081,7 +4279,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7dd4210-708e-44bc-b08a-7bc8d26160e7")
-		(property "Reference" "R24"
+		(property "Reference" "R19"
 			(at 248.92 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4092,7 +4290,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K/R0603"
+		(property "Value" "10K/0.1W/1%/R0603"
 			(at 248.92 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4125,7 +4323,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
 			(at 246.38 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4158,6 +4356,28 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 246.38 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 246.38 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "488e3adb-7ccf-4d10-8552-05bcc9afc015")
 		)
@@ -4167,7 +4387,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/86f0e54b-9e1c-4445-9a24-509c49d1d218"
-					(reference "R24")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4262,7 +4482,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f549594b-506c-49bc-9c77-d5c8b6fa4b78")
-		(property "Reference" "R27"
+		(property "Reference" "R22"
 			(at 45.72 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4273,7 +4493,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K/R0603"
+		(property "Value" "10K/0.1W/1%/R0603"
 			(at 45.72 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4306,7 +4526,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
 			(at 44.45 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -4339,6 +4559,28 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 44.45 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 44.45 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2e28829a-b56f-42d3-9e49-f591899f6bbe")
 		)
@@ -4348,7 +4590,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/86f0e54b-9e1c-4445-9a24-509c49d1d218"
-					(reference "R27")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -4410,7 +4652,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "VEML6030 Vishay, Ambient Light Sensor, Ambient Light to Digital Data I2C 6-Pin"
+		(property "Description" "SENSOR OPT 550NM AMBIENT 6 SMD"
 			(at 184.15 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4517,6 +4759,28 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 184.15 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "VEML6030"
+			(at 184.15 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "VEML6030"
 			(at 184.15 86.36 0)
 			(hide yes)
 			(show_name no)

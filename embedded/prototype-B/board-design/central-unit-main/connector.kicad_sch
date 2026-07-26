@@ -1719,7 +1719,7 @@
 	)
 	(rectangle
 		(start 158.75 114.3)
-		(end 190.5 158.75)
+		(end 215.9 158.75)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1744,13 +1744,13 @@
 	)
 	(text "Pull-up resistors\nfor I2C lines"
 		(exclude_from_sim no)
-		(at 160.02 115.57 0)
+		(at 214.63 115.57 0)
 		(effects
 			(font
 				(size 1.905 1.905)
 				(color 0 0 0 1)
 			)
-			(justify left top)
+			(justify right top)
 		)
 		(uuid "4c9de98b-dcfc-4a3c-9761-a3b49d84ba0e")
 	)
@@ -2847,6 +2847,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 69.85 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2e0c8faa-b4f1-4c54-b5f3-b06a8a6f439e")
 		)
@@ -2938,6 +2949,17 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 69.85 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 69.85 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -3127,6 +3149,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 95.25 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aa063238-9694-4689-a1f8-176855454908")
 		)
@@ -3150,7 +3183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47efe5c0-e984-4e46-98f6-3aeb1ba092b0")
-		(property "Reference" "R33"
+		(property "Reference" "R28"
 			(at 170.18 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3161,7 +3194,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K/R0603"
+		(property "Value" "4.7K/0.1W/1%/R0603"
 			(at 170.18 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3194,7 +3227,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 4.7K OHM 1% 1/10W 0603"
 			(at 168.91 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -3227,6 +3260,28 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-134K7L"
+			(at 168.91 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 168.91 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c2b5fe8-1a26-496e-b18d-9e329740b91d")
 		)
@@ -3236,7 +3291,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/2abe0eec-2be5-4c48-b296-f13a8b7f195a"
-					(reference "R33")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -3253,7 +3308,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "529f2da3-4c88-4789-a576-854837f864c8")
-		(property "Reference" "R31"
+		(property "Reference" "R26"
 			(at 97.79 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3264,7 +3319,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K/R0603"
+		(property "Value" "10K/0.1W/1%/R0603"
 			(at 97.79 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3297,7 +3352,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
 			(at 96.52 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3330,6 +3385,28 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 96.52 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 96.52 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "79b11761-bf78-4581-9eda-8a190521757f")
 		)
@@ -3339,7 +3416,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/2abe0eec-2be5-4c48-b296-f13a8b7f195a"
-					(reference "R31")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -3434,6 +3511,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 95.25 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0a4d1d71-1b9c-4005-a8a7-79f98f43866c")
 		)
@@ -3457,7 +3545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "556e53b8-c4d4-4ff8-8101-e9a839288cb0")
-		(property "Reference" "R32"
+		(property "Reference" "R27"
 			(at 100.33 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3468,7 +3556,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K/R0603"
+		(property "Value" "10K/0.1W/1%/R0603"
 			(at 100.33 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3501,7 +3589,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
 			(at 99.06 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3534,6 +3622,28 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 99.06 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 99.06 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c01d192b-bdf5-418b-921d-0177abd18d3b")
 		)
@@ -3543,7 +3653,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/2abe0eec-2be5-4c48-b296-f13a8b7f195a"
-					(reference "R32")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -3727,7 +3837,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/6.3V/20%/C0603"
+		(property "Value" "10uF/16V/10%/C0603"
 			(at 130.81 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3760,7 +3870,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 10UF 10% 16V X5R 0603"
 			(at 129.54 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3859,6 +3969,28 @@
 				)
 			)
 		)
+		(property "MPN" "CC0603KRX5R7BB106"
+			(at 129.54 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 129.54 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ac672ae5-513c-479f-ac50-f37af07681cf")
 		)
@@ -3885,7 +4017,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a99e76d7-dd70-47db-b8c6-fc121ecf09d3")
-		(property "Reference" "R30"
+		(property "Reference" "R25"
 			(at 95.25 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3896,7 +4028,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K/R0603"
+		(property "Value" "10K/0.1W/1%/R0603"
 			(at 95.25 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3929,7 +4061,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
 			(at 93.98 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3962,6 +4094,28 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 93.98 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 93.98 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6ce2b481-45f6-4c16-bee6-688838a7810a")
 		)
@@ -3971,7 +4125,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/2abe0eec-2be5-4c48-b296-f13a8b7f195a"
-					(reference "R30")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -3988,7 +4142,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab21a3c1-b5c7-46b7-bf7a-306d45124a82")
-		(property "Reference" "R29"
+		(property "Reference" "R24"
 			(at 92.71 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3999,7 +4153,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K/R0603"
+		(property "Value" "10K/0.1W/1%/R0603"
 			(at 92.71 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4032,7 +4186,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
 			(at 91.44 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4065,6 +4219,28 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 91.44 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 91.44 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e3d38651-897f-4b1c-a90c-6fbb9d819b81")
 		)
@@ -4074,7 +4250,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/2abe0eec-2be5-4c48-b296-f13a8b7f195a"
-					(reference "R29")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -4091,7 +4267,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad191e35-df40-4520-b93f-7fc321044acf")
-		(property "Reference" "R34"
+		(property "Reference" "R29"
 			(at 172.72 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4102,7 +4278,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K/R0603"
+		(property "Value" "4.7K/0.1W/1%/R0603"
 			(at 172.72 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4135,7 +4311,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 4.7K OHM 1% 1/10W 0603"
 			(at 171.45 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -4168,6 +4344,28 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-134K7L"
+			(at 171.45 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 171.45 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5e7838ea-8f84-4d72-b289-69e65d9a87c6")
 		)
@@ -4177,7 +4375,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/2abe0eec-2be5-4c48-b296-f13a8b7f195a"
-					(reference "R34")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -4428,7 +4626,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb35df87-cd0e-4414-b68e-c893c08f0749")
-		(property "Reference" "R28"
+		(property "Reference" "R23"
 			(at 90.17 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4439,7 +4637,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K/R0603"
+		(property "Value" "10K/0.1W/1%/R0603"
 			(at 90.17 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4472,7 +4670,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/10W 0603"
 			(at 88.9 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4505,6 +4703,28 @@
 				)
 			)
 		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 88.9 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 88.9 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9d842c28-ce3a-4a98-89f8-40aeea4ba417")
 		)
@@ -4514,7 +4734,7 @@
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161/2abe0eec-2be5-4c48-b296-f13a8b7f195a"
-					(reference "R28")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -4574,7 +4794,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 10POS 2.54MM"
 			(at 208.28 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4597,6 +4817,28 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 208.28 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SBH11-PBPC-D05-ST-BK"
+			(at 208.28 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "IDC-Header_2x05_P2.54mm_Vertical"
 			(at 208.28 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4703,7 +4945,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard IDC20 Pinheader Connector, ARM legacy JTAG and SWD interface"
+		(property "Description" "CONN HEADER VERT 20POS 2.54MM"
 			(at 66.04 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4726,6 +4968,28 @@
 			)
 		)
 		(property "VERIFIER" ""
+			(at 66.04 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SBH11-PBPC-D10-ST-BK"
+			(at 66.04 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "IDC-Header_2x10_P2.54mm_Vertical"
 			(at 66.04 88.9 0)
 			(hide yes)
 			(show_name no)
