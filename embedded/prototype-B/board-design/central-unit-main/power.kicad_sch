@@ -5347,7 +5347,7 @@
 				)
 			)
 		)
-		(property "MPN" "RES 178K OHM 1% 1/10W 0603"
+		(property "MPN" "RC0603FR-13178KL"
 			(at 207.01 107.95 0)
 			(hide yes)
 			(show_name no)
