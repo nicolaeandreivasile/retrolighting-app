@@ -5018,7 +5018,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "ce336099-5875-48d3-a8b2-53cfb1f212e3")
 		(property "Reference" "C23"

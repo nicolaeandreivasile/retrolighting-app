@@ -1,0 +1,140 @@
+** Drc report for central-unit-main.kicad_pcb **
+** Created on 2026-07-26T19:45:52 **
+** Report includes: Errors, Warnings **
+
+** Found 35 DRC violations **
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.5000 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(138.5500 mm, 58.4500 mm): PTH pad 17 [GND] of U5
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.5000 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(137.4500 mm, 58.4500 mm): PTH pad 17 [GND] of U5
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.5000 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(138.5500 mm, 59.5500 mm): PTH pad 17 [GND] of U5
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.5000 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(137.4500 mm, 59.5500 mm): PTH pad 17 [GND] of U5
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.5000 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(135.0750 mm, 76.0000 mm): PTH pad 11 [GND] of U2
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.5000 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(134.5000 mm, 76.9500 mm): PTH pad 11 [GND] of U2
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.5000 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(134.5000 mm, 75.0500 mm): PTH pad 11 [GND] of U2
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.5000 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(133.9250 mm, 76.0000 mm): PTH pad 11 [GND] of U2
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.2500 mm; actual 0.1500 mm)
+    Rule: Pad Size; error
+    @(138.5500 mm, 58.4500 mm): PTH pad 17 [GND] of U5
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.2500 mm; actual 0.1500 mm)
+    Rule: Pad Size; error
+    @(137.4500 mm, 58.4500 mm): PTH pad 17 [GND] of U5
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.2500 mm; actual 0.1500 mm)
+    Rule: Pad Size; error
+    @(138.5500 mm, 59.5500 mm): PTH pad 17 [GND] of U5
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.2500 mm; actual 0.1500 mm)
+    Rule: Pad Size; error
+    @(137.4500 mm, 59.5500 mm): PTH pad 17 [GND] of U5
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(161.6500 mm, 72.3200 mm): PTH pad SH1 [GND] of J2
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(161.6500 mm, 63.6800 mm): PTH pad SH2 [GND] of J2
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(157.6500 mm, 72.3200 mm): PTH pad SH3 [GND] of J2
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(157.6500 mm, 63.6800 mm): PTH pad SH4 [GND] of J2
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.2500 mm; actual 0.1550 mm)
+    Rule: Pad Size; error
+    @(135.0750 mm, 76.0000 mm): PTH pad 11 [GND] of U2
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.2500 mm; actual 0.1550 mm)
+    Rule: Pad Size; error
+    @(134.5000 mm, 76.9500 mm): PTH pad 11 [GND] of U2
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.2500 mm; actual 0.1550 mm)
+    Rule: Pad Size; error
+    @(134.5000 mm, 75.0500 mm): PTH pad 11 [GND] of U2
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.2500 mm; actual 0.1550 mm)
+    Rule: Pad Size; error
+    @(133.9250 mm, 76.0000 mm): PTH pad 11 [GND] of U2
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0150 mm)
+    Rule: Pad to Silkscreen; warning
+    @(130.1250 mm, 96.6650 mm): Segment of Y1 on F.Silkscreen
+    @(131.0000 mm, 94.7400 mm): Pad 1 [/MCU/OSC_32K_IN] of Y1 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0150 mm)
+    Rule: Pad to Silkscreen; warning
+    @(130.1250 mm, 96.6650 mm): Segment of Y1 on F.Silkscreen
+    @(131.0000 mm, 97.2400 mm): Pad 2 [/MCU/OSC_32K_OUT] of Y1 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0150 mm)
+    Rule: Pad to Silkscreen; warning
+    @(131.8750 mm, 96.6650 mm): Segment of Y1 on F.Silkscreen
+    @(131.0000 mm, 94.7400 mm): Pad 1 [/MCU/OSC_32K_IN] of Y1 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0150 mm)
+    Rule: Pad to Silkscreen; warning
+    @(131.8750 mm, 96.6650 mm): Segment of Y1 on F.Silkscreen
+    @(131.0000 mm, 97.2400 mm): Pad 2 [/MCU/OSC_32K_OUT] of Y1 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0900 mm)
+    Rule: Pad to Silkscreen; warning
+    @(140.9000 mm, 121.6000 mm): Segment of U6 on F.Silkscreen
+    @(141.2375 mm, 121.7500 mm): Pad 4 [/MCU/I2C1_SDA] of U6 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0900 mm)
+    Rule: Pad to Silkscreen; warning
+    @(140.9000 mm, 122.1000 mm): Segment of U6 on F.Silkscreen
+    @(141.2375 mm, 121.7500 mm): Pad 4 [/MCU/I2C1_SDA] of U6 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1150 mm)
+    Rule: Pad to Silkscreen; warning
+    @(141.4000 mm, 122.1000 mm): Segment of U6 on F.Silkscreen
+    @(141.2375 mm, 121.7500 mm): Pad 4 [/MCU/I2C1_SDA] of U6 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1150 mm)
+    Rule: Pad to Silkscreen; warning
+    @(142.6000 mm, 122.1000 mm): Segment of U6 on F.Silkscreen
+    @(142.7625 mm, 121.7500 mm): Pad 7 [GND] of U6 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0900 mm)
+    Rule: Pad to Silkscreen; warning
+    @(143.1000 mm, 121.6000 mm): Segment of U6 on F.Silkscreen
+    @(142.7625 mm, 121.7500 mm): Pad 7 [GND] of U6 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1150 mm)
+    Rule: Pad to Silkscreen; warning
+    @(143.1000 mm, 122.1000 mm): Segment of U6 on F.Silkscreen
+    @(142.7625 mm, 121.7500 mm): Pad 7 [GND] of U6 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1150 mm)
+    Rule: Pad to Silkscreen; warning
+    @(141.4000 mm, 119.9000 mm): Segment of U6 on F.Silkscreen
+    @(141.2375 mm, 120.2500 mm): Pad 1 [/MCU/I2C1_SCL] of U6 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1150 mm)
+    Rule: Pad to Silkscreen; warning
+    @(142.6000 mm, 119.9000 mm): Segment of U6 on F.Silkscreen
+    @(142.7625 mm, 120.2500 mm): Pad 10 [Net-(U6-Vdd)] of U6 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0900 mm)
+    Rule: Pad to Silkscreen; warning
+    @(143.1000 mm, 119.9000 mm): Segment of U6 on F.Silkscreen
+    @(142.7625 mm, 120.2500 mm): Pad 10 [Net-(U6-Vdd)] of U6 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0900 mm)
+    Rule: Pad to Silkscreen; warning
+    @(143.1000 mm, 120.4000 mm): Segment of U6 on F.Silkscreen
+    @(142.7625 mm, 120.2500 mm): Pad 10 [Net-(U6-Vdd)] of U6 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0900 mm)
+    Rule: Pad to Silkscreen; warning
+    @(140.9000 mm, 120.4000 mm): Segment of U6 on F.Silkscreen
+    @(141.2375 mm, 120.2500 mm): Pad 1 [/MCU/I2C1_SCL] of U6 on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
