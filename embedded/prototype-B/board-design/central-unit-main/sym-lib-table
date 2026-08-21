@@ -7,4 +7,5 @@
 	(lib (name "VEML6030") (type "KiCad") (uri "${KIPRJMOD}/VEML6030/VEML6030.kicad_sym") (options "") (descr ""))
 	(lib (name "1825910-6") (type "KiCad") (uri "${KIPRJMOD}/1825910-6/1825910-6.kicad_sym") (options "") (descr ""))
 	(lib (name "MIC2778") (type "KiCad") (uri "${KIPRJMOD}/MIC2778/MIC2778.kicad_sym") (options "") (descr ""))
+	(lib (name "MP-3014-1100-50-70") (type "KiCad") (uri "${KIPRJMOD}/MP_3014_1100_50_70/MP-3014-1100-50-70.kicad_sym") (options "") (descr ""))
 )

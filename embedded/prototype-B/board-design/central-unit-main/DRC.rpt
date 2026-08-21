@@ -1,5 +1,5 @@
 ** Drc report for central-unit-main.kicad_pcb **
-** Created on 2026-08-13T10:58:18 **
+** Created on 2026-08-21T06:36:59 **
 ** Report includes: Errors, Warnings **
 
 ** Found 35 DRC violations **
@@ -63,26 +63,6 @@
 [annular_width]: Annular width (rule 'Pad Size' min annular width 0.2500 mm; actual 0.1550 mm)
     Rule: Pad Size; error
     @(133.9250 mm, 76.0000 mm): PTH pad 11 [GND] of U2
-[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0150 mm)
-    Rule: Pad to Silkscreen; warning
-    @(130.1250 mm, 96.6650 mm): Segment of Y1 on F.Silkscreen
-    @(131.0000 mm, 97.2400 mm): Pad 2 [/MCU/OSC_32K_OUT] of Y1 on F.Cu
-[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0150 mm)
-    Rule: Pad to Silkscreen; warning
-    @(130.1250 mm, 96.6650 mm): Segment of Y1 on F.Silkscreen
-    @(131.0000 mm, 94.7400 mm): Pad 1 [/MCU/OSC_32K_IN] of Y1 on F.Cu
-[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0150 mm)
-    Rule: Pad to Silkscreen; warning
-    @(131.8750 mm, 96.6650 mm): Segment of Y1 on F.Silkscreen
-    @(131.0000 mm, 97.2400 mm): Pad 2 [/MCU/OSC_32K_OUT] of Y1 on F.Cu
-[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0150 mm)
-    Rule: Pad to Silkscreen; warning
-    @(131.8750 mm, 96.6650 mm): Segment of Y1 on F.Silkscreen
-    @(131.0000 mm, 94.7400 mm): Pad 1 [/MCU/OSC_32K_IN] of Y1 on F.Cu
-[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0900 mm)
-    Rule: Pad to Silkscreen; warning
-    @(140.9000 mm, 121.6000 mm): Segment of U6 on F.Silkscreen
-    @(141.2375 mm, 121.7500 mm): Pad 4 [/MCU/I2C1_SDA] of U6 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0900 mm)
     Rule: Pad to Silkscreen; warning
     @(140.9000 mm, 122.1000 mm): Segment of U6 on F.Silkscreen
@@ -103,6 +83,14 @@
     Rule: Pad to Silkscreen; warning
     @(143.1000 mm, 122.1000 mm): Segment of U6 on F.Silkscreen
     @(142.7625 mm, 121.7500 mm): Pad 7 [GND] of U6 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0900 mm)
+    Rule: Pad to Silkscreen; warning
+    @(140.9000 mm, 120.4000 mm): Segment of U6 on F.Silkscreen
+    @(141.2375 mm, 120.2500 mm): Pad 1 [/MCU/I2C1_SCL] of U6 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0900 mm)
+    Rule: Pad to Silkscreen; warning
+    @(140.9000 mm, 121.6000 mm): Segment of U6 on F.Silkscreen
+    @(141.2375 mm, 121.7500 mm): Pad 4 [/MCU/I2C1_SDA] of U6 on F.Cu
 [silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1150 mm)
     Rule: Pad to Silkscreen; warning
     @(141.4000 mm, 119.9000 mm): Segment of U6 on F.Silkscreen
@@ -119,10 +107,22 @@
     Rule: Pad to Silkscreen; warning
     @(143.1000 mm, 120.4000 mm): Segment of U6 on F.Silkscreen
     @(142.7625 mm, 120.2500 mm): Pad 10 [Net-(U6-Vdd)] of U6 on F.Cu
-[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0900 mm)
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0150 mm)
     Rule: Pad to Silkscreen; warning
-    @(140.9000 mm, 120.4000 mm): Segment of U6 on F.Silkscreen
-    @(141.2375 mm, 120.2500 mm): Pad 1 [/MCU/I2C1_SCL] of U6 on F.Cu
+    @(131.8750 mm, 96.6650 mm): Segment of Y1 on F.Silkscreen
+    @(131.0000 mm, 94.7400 mm): Pad 1 [/MCU/OSC_32K_IN] of Y1 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0150 mm)
+    Rule: Pad to Silkscreen; warning
+    @(131.8750 mm, 96.6650 mm): Segment of Y1 on F.Silkscreen
+    @(131.0000 mm, 97.2400 mm): Pad 2 [/MCU/OSC_32K_OUT] of Y1 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0150 mm)
+    Rule: Pad to Silkscreen; warning
+    @(130.1250 mm, 96.6650 mm): Segment of Y1 on F.Silkscreen
+    @(131.0000 mm, 94.7400 mm): Pad 1 [/MCU/OSC_32K_IN] of Y1 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0150 mm)
+    Rule: Pad to Silkscreen; warning
+    @(130.1250 mm, 96.6650 mm): Segment of Y1 on F.Silkscreen
+    @(131.0000 mm, 97.2400 mm): Pad 2 [/MCU/OSC_32K_OUT] of Y1 on F.Cu
 
 ** Found 0 unconnected pads **
 

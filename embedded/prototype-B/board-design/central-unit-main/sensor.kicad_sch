@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Retrolight")
-		(date "2026-07-24")
+		(date "2026-08-16")
 		(rev "B")
 		(comment 1 "Author: Nicolae-Andrei Prodan")
 	)
@@ -1566,16 +1566,16 @@
 		(uuid "762cecb4-9358-4585-a276-71428f746961")
 	)
 	(junction
-		(at 246.38 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e8db76a-5829-45fb-83af-142091cbfaa7")
-	)
-	(junction
 		(at 81.28 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ab6b8d2-bfd2-47d0-a71a-8661c8241cfd")
+	)
+	(junction
+		(at 247.65 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4a0cf4e-1c18-4644-be23-b51a6b84b53a")
 	)
 	(junction
 		(at 60.96 107.95)
@@ -1815,16 +1815,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 86.36) (xy 252.73 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "501748e6-03fa-4614-afe9-bf738a2959e1")
-	)
-	(wire
-		(pts
 			(xy 63.5 125.73) (xy 135.89 125.73)
 		)
 		(stroke
@@ -1915,6 +1905,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 86.36) (xy 252.73 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d558fc-676c-47c2-a61b-126eec19c6ad")
+	)
+	(wire
+		(pts
 			(xy 96.52 128.27) (xy 81.28 128.27)
 		)
 		(stroke
@@ -1945,7 +1945,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 96.52) (xy 246.38 99.06)
+			(xy 247.65 96.52) (xy 247.65 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2095,7 +2095,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 99.06) (xy 246.38 99.06)
+			(xy 181.61 99.06) (xy 247.65 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2125,7 +2125,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 86.36) (xy 246.38 86.36)
+			(xy 241.3 86.36) (xy 247.65 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2265,7 +2265,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 86.36) (xy 246.38 88.9)
+			(xy 247.65 86.36) (xy 247.65 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4270,7 +4270,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 246.38 92.71 0)
+		(at 247.65 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4280,7 +4280,7 @@
 		(dnp no)
 		(uuid "d7dd4210-708e-44bc-b08a-7bc8d26160e7")
 		(property "Reference" "R19"
-			(at 248.92 91.44 0)
+			(at 250.19 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4291,7 +4291,7 @@
 			)
 		)
 		(property "Value" "10K/0.1W/1%/R0603"
-			(at 248.92 93.98 0)
+			(at 250.19 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4302,7 +4302,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 244.602 92.71 90)
+			(at 245.872 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4313,7 +4313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 92.71 0)
+			(at 247.65 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4324,7 +4324,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1% 1/10W 0603"
-			(at 246.38 92.71 0)
+			(at 247.65 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4335,7 +4335,7 @@
 			)
 		)
 		(property "CREATOR" ""
-			(at 246.38 92.71 0)
+			(at 247.65 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4346,7 +4346,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 246.38 92.71 0)
+			(at 247.65 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4357,7 +4357,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710KL"
-			(at 246.38 92.71 0)
+			(at 247.65 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4368,7 +4368,7 @@
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
-			(at 246.38 92.71 0)
+			(at 247.65 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

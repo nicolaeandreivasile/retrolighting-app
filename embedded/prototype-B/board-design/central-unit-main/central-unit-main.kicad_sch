@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Retrolight")
-		(date "2026-07-24")
+		(date "2026-08-16")
 		(rev "B")
 		(comment 1 "Author: Nicolae-Andrei Prodan")
 	)
@@ -23,7 +23,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 53.34) (xy 127 53.34)
+			(xy 101.6 53.34) (xy 127 53.34)
 		)
 		(stroke
 			(width 0)
@@ -43,17 +43,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 88.9) (xy 190.5 88.9)
+			(xy 165.1 99.06) (xy 190.5 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2df1079b-b973-4edb-bc1d-585d9491b969")
+		(uuid "2da1e3cd-91a0-4d6d-96ef-05cfcd86bc9b")
 	)
 	(wire
 		(pts
-			(xy 88.9 91.44) (xy 127 91.44)
+			(xy 101.6 91.44) (xy 127 91.44)
 		)
 		(stroke
 			(width 0)
@@ -63,7 +63,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 60.96) (xy 127 60.96)
+			(xy 101.6 60.96) (xy 127 60.96)
 		)
 		(stroke
 			(width 0)
@@ -73,17 +73,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 83.82) (xy 190.5 83.82)
+			(xy 165.1 93.98) (xy 190.5 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ef46ad8-d096-47cd-a056-fadcbef73cbd")
+		(uuid "5a5efea2-1b5d-48cd-8702-5e39030806ac")
 	)
 	(wire
 		(pts
-			(xy 88.9 99.06) (xy 127 99.06)
+			(xy 101.6 99.06) (xy 127 99.06)
 		)
 		(stroke
 			(width 0)
@@ -93,17 +93,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 73.66) (xy 190.5 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73a9cfaf-e290-47fe-b711-d9d6025d749a")
-	)
-	(wire
-		(pts
-			(xy 88.9 96.52) (xy 127 96.52)
+			(xy 101.6 96.52) (xy 127 96.52)
 		)
 		(stroke
 			(width 0)
@@ -123,27 +113,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 76.2) (xy 190.5 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9492f710-0017-4819-9611-d221553ce2e6")
-	)
-	(wire
-		(pts
-			(xy 165.1 86.36) (xy 190.5 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9da4463e-ebfd-4932-86bc-12a6d1ac302c")
-	)
-	(wire
-		(pts
-			(xy 88.9 58.42) (xy 127 58.42)
+			(xy 101.6 58.42) (xy 127 58.42)
 		)
 		(stroke
 			(width 0)
@@ -163,13 +133,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 93.98) (xy 190.5 93.98)
+			(xy 165.1 91.44) (xy 190.5 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c69d13a0-2e62-4310-b391-610692b00d49")
+		(uuid "cce092ea-fb37-401a-8de0-5b4485c51997")
 	)
 	(wire
 		(pts
@@ -183,7 +153,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 55.88) (xy 127 55.88)
+			(xy 101.6 55.88) (xy 127 55.88)
 		)
 		(stroke
 			(width 0)
@@ -201,28 +171,84 @@
 		)
 		(uuid "ecfb56b0-75dc-4dd0-a90c-c18afdfe597b")
 	)
-	(wire
-		(pts
-			(xy 165.1 81.28) (xy 190.5 81.28)
-		)
+	(sheet
+		(at 190.5 88.9)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
 		(stroke
-			(width 0)
-			(type default)
+			(width 0.1524)
+			(type solid)
 		)
-		(uuid "f7e04e55-102d-4966-9f72-da3d3131e31e")
-	)
-	(wire
-		(pts
-			(xy 165.1 96.52) (xy 190.5 96.52)
+		(fill
+			(color 0 0 0 0)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(uuid "0410dc45-afd5-4f5e-a494-fd10c8b08848")
+		(property "Sheetname" "LED"
+			(at 190.5 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
 		)
-		(uuid "fdf88fb3-df1f-4389-9dd6-5448e9994bbd")
+		(property "Sheetfile" "led.kicad_sch"
+			(at 190.5 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_SCL" bidirectional
+			(at 190.5 91.44 180)
+			(uuid "ae8bb889-f036-4165-952b-5bacb498dfa1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 190.5 93.98 180)
+			(uuid "df02bf41-1a73-4a4c-9aaf-d81327a90093")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 190.5 99.06 180)
+			(uuid "8d8f8ca4-8351-4525-9e8d-21b28858ca8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "central-unit-main"
+				(path "/baa8ab85-8b75-4cee-ab91-40606360b161"
+					(page "8")
+				)
+			)
+		)
 	)
 	(sheet
-		(at 76.2 88.9)
+		(at 88.9 88.9)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -238,7 +264,7 @@
 		)
 		(uuid "0874b7fa-6631-41bc-8ca3-fd3382c89502")
 		(property "Sheetname" "USB"
-			(at 76.2 88.1884 0)
+			(at 88.9 88.1884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -249,7 +275,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 76.2 102.1846 0)
+			(at 88.9 102.1846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -260,7 +286,7 @@
 			)
 		)
 		(pin "D-" bidirectional
-			(at 88.9 99.06 0)
+			(at 101.6 99.06 0)
 			(uuid "721140f0-0b55-4ddf-9b14-b34b648f0582")
 			(effects
 				(font
@@ -270,7 +296,7 @@
 			)
 		)
 		(pin "D+" bidirectional
-			(at 88.9 96.52 0)
+			(at 101.6 96.52 0)
 			(uuid "58d3a5c7-22cb-41a9-a428-d49868b048f0")
 			(effects
 				(font
@@ -280,7 +306,7 @@
 			)
 		)
 		(pin "DETECT" output
-			(at 88.9 91.44 0)
+			(at 101.6 91.44 0)
 			(uuid "693b7bd2-f77d-4428-af65-00b21a3313d1")
 			(effects
 				(font
@@ -345,7 +371,7 @@
 	)
 	(sheet
 		(at 190.5 50.8)
-		(size 25.4 50.8)
+		(size 25.4 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -371,7 +397,7 @@
 			)
 		)
 		(property "Sheetfile" "connector.kicad_sch"
-			(at 190.5 102.1846 0)
+			(at 190.5 71.7046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -441,86 +467,6 @@
 				(justify left)
 			)
 		)
-		(pin "GPIO0" bidirectional
-			(at 190.5 93.98 180)
-			(uuid "2ac9540a-fd44-4396-8283-023c0e94ebbc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO1" bidirectional
-			(at 190.5 96.52 180)
-			(uuid "bdfe88b3-fe0e-46f6-8ac5-2696c7038dcc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C_SCL" bidirectional
-			(at 190.5 73.66 180)
-			(uuid "32a0c1f7-9553-45b9-bd37-a2f59dbe79a6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C_SDA" bidirectional
-			(at 190.5 76.2 180)
-			(uuid "b8d6e8c2-c703-4bb8-972e-596af7f3537b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI_SS" input
-			(at 190.5 83.82 180)
-			(uuid "07c7b404-c0cd-42af-a875-8bbd6fe9b8b7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI_MISO" output
-			(at 190.5 81.28 180)
-			(uuid "f97bb755-e277-4327-869b-d57fec62444b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI_MOSI" input
-			(at 190.5 86.36 180)
-			(uuid "a45c3c6a-cffe-4c88-b4b3-ca1e88b4125a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI_SCK" input
-			(at 190.5 88.9 180)
-			(uuid "9792eb9b-8b7d-48cc-9bc2-0e8d4c16d710")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "central-unit-main"
 				(path "/baa8ab85-8b75-4cee-ab91-40606360b161"
@@ -576,7 +522,7 @@
 		)
 	)
 	(sheet
-		(at 76.2 50.8)
+		(at 88.9 50.8)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -592,7 +538,7 @@
 		)
 		(uuid "86f0e54b-9e1c-4445-9a24-509c49d1d218")
 		(property "Sheetname" "Sensor"
-			(at 76.2 50.0884 0)
+			(at 88.9 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -603,7 +549,7 @@
 			)
 		)
 		(property "Sheetfile" "sensor.kicad_sch"
-			(at 76.2 64.0846 0)
+			(at 88.9 64.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -614,7 +560,7 @@
 			)
 		)
 		(pin "ALS_INT" output
-			(at 88.9 58.42 0)
+			(at 101.6 58.42 0)
 			(uuid "851fb4a1-4b49-4e4a-b8d8-041e869d52bc")
 			(effects
 				(font
@@ -624,7 +570,7 @@
 			)
 		)
 		(pin "ACC_INT" output
-			(at 88.9 60.96 0)
+			(at 101.6 60.96 0)
 			(uuid "8e09a670-b3b5-4643-9897-914600ee2bb2")
 			(effects
 				(font
@@ -634,7 +580,7 @@
 			)
 		)
 		(pin "I2C_SCL" bidirectional
-			(at 88.9 55.88 0)
+			(at 101.6 55.88 0)
 			(uuid "0b23ed5b-2417-430c-88c8-937b6e500ca1")
 			(effects
 				(font
@@ -644,7 +590,7 @@
 			)
 		)
 		(pin "I2C_SDA" bidirectional
-			(at 88.9 53.34 0)
+			(at 101.6 53.34 0)
 			(uuid "70a5dcd6-b6ac-445e-9ec3-54061d49c46d")
 			(effects
 				(font
@@ -830,7 +776,7 @@
 			)
 		)
 		(pin "I2C2_SCL" bidirectional
-			(at 165.1 73.66 0)
+			(at 165.1 91.44 0)
 			(uuid "8f3a5cc2-8162-4a72-b2c2-0dfbc491ca8a")
 			(effects
 				(font
@@ -840,7 +786,7 @@
 			)
 		)
 		(pin "I2C2_SDA" bidirectional
-			(at 165.1 76.2 0)
+			(at 165.1 93.98 0)
 			(uuid "002e0998-d59b-49ad-ab14-0efb594283a2")
 			(effects
 				(font
@@ -849,59 +795,9 @@
 				(justify right)
 			)
 		)
-		(pin "SPI2_MISO" input
-			(at 165.1 81.28 0)
-			(uuid "bffefd29-1f48-40fa-935a-8864422428b5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI2_NSS" output
-			(at 165.1 83.82 0)
-			(uuid "275958c8-4fe2-46ad-af14-ff90e2e37d05")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI2_MOSI" output
-			(at 165.1 86.36 0)
-			(uuid "703a871c-fbcf-4465-92aa-0723a0a5c41e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI2_SCK" output
-			(at 165.1 88.9 0)
-			(uuid "cd4844e1-a260-4933-ae3c-bb3b7270d6c6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO0" bidirectional
-			(at 165.1 93.98 0)
-			(uuid "9e1dbeb9-99c5-49c2-97e1-d98c4f0f129a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO1" bidirectional
-			(at 165.1 96.52 0)
-			(uuid "3cdcbf6f-bf54-4f80-a997-3a279db1d4be")
+		(pin "~{LED_RST}" output
+			(at 165.1 99.06 0)
+			(uuid "e8914775-9182-4e8f-8ac6-6579116fa231")
 			(effects
 				(font
 					(size 1.27 1.27)
