@@ -1,4 +1,4 @@
-ERC report (2026-08-13T10:23:19, Encoding UTF8)
+ERC report (2026-08-21T06:26:43, Encoding UTF8)
 Report includes: Errors, Warnings
 
 ***** Sheet /
@@ -18,6 +18,8 @@ Report includes: Errors, Warnings
     @(1500 mils, 6850 mils): Symbol #FLG04 Pin 1 [Power output, Line]
 
 ***** Sheet /Connector/
+
+***** Sheet /LED/
 
  ** ERC messages: 1  Errors 0  Warnings 1
 

@@ -899,7 +899,7 @@
         "uuid": "baa8ab85-8b75-4cee-ab91-40606360b161"
       }
     ],
-    "used_designators": "TP1-8,TH1,#FLG1-6,Y1-2,#PWR1-37,BAT1,IC1,C1-32,U1-6,D1-3,H1-4,J1-4,FB1-2,L1,R1-29,S1,SW1",
+    "used_designators": "TP1-8,TH1,#FLG1-6,Y1-2,#PWR1-37,BAT1,IC1,C1-34,U1-7,D1-7,H1-4,J1-3,FB1-2,L1,R1-31,S1,SW1",
     "variants": []
   },
   "sheets": [
@@ -930,6 +930,10 @@
     [
       "2abe0eec-2be5-4c48-b296-f13a8b7f195a",
       "Connector"
+    ],
+    [
+      "0410dc45-afd5-4f5e-a494-fd10c8b08848",
+      "LED"
     ]
   ],
   "text_variables": {},
